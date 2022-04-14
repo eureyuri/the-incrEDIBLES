@@ -16,6 +16,8 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.PlasticSCM.Editor.dll:
+    - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.CoreUtils.dll:
@@ -30,6 +32,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
     - UnityEngine.XR.Interaction.Toolkit.UI.XRUIInputModule
     - UnityEngine.XR.Interaction.Toolkit.XRController
+    - UnityEngine.XR.Interaction.Toolkit.XRDirectInteractor
+    - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
     - UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual
     - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
@@ -44,10 +48,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -60,8 +62,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Kitchen.unity:
     - Class: 1
@@ -84,6 +84,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -103,46 +105,52 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 1846}
+      Script: {instanceID: 1674}
     - Class: 114
-      Script: {instanceID: 1976}
+      Script: {instanceID: 1920}
     - Class: 114
-      Script: {instanceID: 2618}
+      Script: {instanceID: 2060}
     - Class: 114
-      Script: {instanceID: 2774}
+      Script: {instanceID: 2716}
     - Class: 114
-      Script: {instanceID: 3596}
+      Script: {instanceID: 2884}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 3482}
     - Class: 114
-      Script: {instanceID: 3706}
+      Script: {instanceID: 3738}
     - Class: 114
-      Script: {instanceID: 3750}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 4014}
+      Script: {instanceID: 3848}
     - Class: 114
-      Script: {instanceID: 4578}
+      Script: {instanceID: 3894}
     - Class: 114
-      Script: {instanceID: 5242}
+      Script: {instanceID: 4164}
     - Class: 114
-      Script: {instanceID: 5330}
+      Script: {instanceID: 4746}
     - Class: 114
-      Script: {instanceID: 5434}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5828}
+      Script: {instanceID: 5542}
     - Class: 114
-      Script: {instanceID: 6318}
+      Script: {instanceID: 5648}
     - Class: 114
-      Script: {instanceID: 7370}
+      Script: {instanceID: 6048}
     - Class: 114
-      Script: {instanceID: 106554}
+      Script: {instanceID: 6548}
     - Class: 114
-      Script: {instanceID: 195680}
+      Script: {instanceID: 6674}
+    - Class: 114
+      Script: {instanceID: 6894}
+    - Class: 114
+      Script: {instanceID: 7620}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -169,6 +177,12 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
+      Hash: bab4bbe04c9d46662ecbaa09266b08f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandPresence
+  - hash:
+      serializedVersion: 2
       Hash: c24a778d9aa393e11e54bff320ca63de
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
@@ -179,6 +193,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
     className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: d8e2a52ca99d0258e884ab7d896395ea
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
   - hash:
       serializedVersion: 2
       Hash: 87e6cfc8015337aef5fa238bd355b16f
@@ -499,6 +519,12 @@ ScriptsOnlyBuild:
     className: BannerPlaceholder
   - hash:
       serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
       Hash: da4cc51a02ce84afe2cecd27cfe6997a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -515,6 +541,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
   - hash:
       serializedVersion: 2
       Hash: c24b0c4ed62d8b7eabb5a4c9a20f4e00
@@ -925,6 +957,12 @@ ScriptsOnlyBuild:
     className: XRSocketInteractor
   - hash:
       serializedVersion: 2
+      Hash: 64cfff131b9b0908b051722132963bc0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Timer
+  - hash:
+      serializedVersion: 2
       Hash: 0247b3226bce1611f95bef667f3a55b3
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
@@ -1081,6 +1119,12 @@ ScriptsOnlyBuild:
     className: ApplicationQuit
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
     assemblyName: UnityEngine.SpatialTracking.dll
     namespaceName: UnityEngine.SpatialTracking
@@ -1169,6 +1213,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 6d32bef7b9ab8996f45180f92bf00cd2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LocomotionController
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1367,43 +1417,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
-    assemblyName: Unity.XR.Management.dll
-    namespaceName: UnityEngine.XR.Management
-    className: XRGeneralSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 8ab9295d94483c961936d82d233d3df2
-    assemblyName: Unity.XR.Management.dll
-    namespaceName: UnityEngine.XR.Management
-    className: XRManagerSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.Oculus.dll
-    namespaceName: Unity.XR.Oculus
-    className: OculusLoader
-  - hash:
-      serializedVersion: 2
-      Hash: d8e2a52ca99d0258e884ab7d896395ea
-    assemblyName: Unity.XR.Oculus.dll
-    namespaceName: Unity.XR.Oculus
-    className: OculusSettings
-  - hash:
-      serializedVersion: 2
-      Hash: bab4bbe04c9d46662ecbaa09266b08f3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HandPresence
-  - hash:
-      serializedVersion: 2
-      Hash: 6d32bef7b9ab8996f45180f92bf00cd2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LocomotionController
   platform: 13
   scenePathNames:
   - Assets/Scenes/Kitchen.unity
-  playerPath: C:/Users/Megha/Documents/3D UI/Unity Projects/FP/the-incrEDIBLES/IncrEDIBLES/Build/incredibles.apk
+  playerPath: D:/Columbia/Spring2022/COMS4172/the-incrEDIBLES/IncrEDIBLES/test.apk
