@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637855373950000000
     m_Hash: 4062600623
+=======
+      ticks: 637855444253241908
+    m_Hash: 1938458767
+>>>>>>> b4c6c54e39377e0505179468121bd612c8cd98e9
   m_LockFileStatus:
     m_FilePath: /Users/eureyuri/Desktop/School/Columbia/CS/3DUI/the-incrEDIBLES.nosync/IncrEDIBLES/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637855373990000000
     m_Hash: 4262705412
+=======
+      ticks: 637855444253246961
+    m_Hash: 4250403427
+>>>>>>> b4c6c54e39377e0505179468121bd612c8cd98e9
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
