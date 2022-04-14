@@ -60,3 +60,11 @@ The following packages were added:
   com.unity.progrids@3.0.3-preview.6
   com.unity.purchasing@4.0.3
   com.unity.xr.legacyinputhelpers@2.1.8
+
+=== Thu Apr 14 08:49:55 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.purchasing from version 4.0.3 to 4.1.2
