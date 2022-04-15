@@ -44,12 +44,6 @@ ScriptsOnlyBuild:
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -87,9 +81,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -102,11 +100,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 1638}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 1884}
+      Script: {instanceID: 1882}
     - Class: 114
-      Script: {instanceID: 2024}
+      Script: {instanceID: 2022}
     - Class: 114
       Script: {instanceID: 2680}
     - Class: 114
@@ -114,35 +112,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3446}
     - Class: 114
-      Script: {instanceID: 3702}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3784}
+      Script: {instanceID: 3786}
     - Class: 114
-      Script: {instanceID: 3812}
+      Script: {instanceID: 3814}
     - Class: 114
-      Script: {instanceID: 3858}
+      Script: {instanceID: 3860}
     - Class: 114
-      Script: {instanceID: 4128}
+      Script: {instanceID: 4132}
     - Class: 114
-      Script: {instanceID: 4710}
+      Script: {instanceID: 4714}
     - Class: 114
-      Script: {instanceID: 5416}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 5506}
+      Script: {instanceID: 5514}
     - Class: 114
-      Script: {instanceID: 5612}
+      Script: {instanceID: 5620}
     - Class: 114
-      Script: {instanceID: 6012}
+      Script: {instanceID: 6020}
     - Class: 114
-      Script: {instanceID: 6512}
+      Script: {instanceID: 6520}
     - Class: 114
-      Script: {instanceID: 6638}
+      Script: {instanceID: 6646}
     - Class: 114
-      Script: {instanceID: 6858}
+      Script: {instanceID: 6868}
     - Class: 114
-      Script: {instanceID: 7584}
+      Script: {instanceID: 7542}
     - Class: 114
-      Script: {instanceID: 29842}
+      Script: {instanceID: 7596}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -202,6 +200,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRControllerRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartGame
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -846,12 +850,6 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Purchasing.Stores.dll
-    namespaceName: UnityEngine.Purchasing
-    className: LifecycleNotifier
-  - hash:
-      serializedVersion: 2
       Hash: e2549d3a59249ea600e260df1932d6f7
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
@@ -937,12 +935,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Purchasing.Stores.dll
-    namespaceName: UnityEngine.Purchasing.Extension
-    className: UnityUtil
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.ProGrids.dll
     namespaceName: UnityEngine.ProGrids
     className: IgnoreSnap
@@ -952,6 +944,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRSocketInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 64cfff131b9b0908b051722132963bc0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Timer
   - hash:
       serializedVersion: 2
       Hash: 0247b3226bce1611f95bef667f3a55b3
@@ -1086,12 +1084,6 @@ ScriptsOnlyBuild:
     className: InputActionReference
   - hash:
       serializedVersion: 2
-      Hash: 30eb564bd7e3b65ae966828be9e631a8
-    assemblyName: UnityEngine.Purchasing.Codeless.dll
-    namespaceName: UnityEngine.Purchasing
-    className: IAPButton
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1102,6 +1094,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeScene
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1162,6 +1160,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Score
   - hash:
       serializedVersion: 2
       Hash: 2d22adb9be23ab6264808f74bae28251
@@ -1296,12 +1300,6 @@ ScriptsOnlyBuild:
     className: SwingArmModel
   - hash:
       serializedVersion: 2
-      Hash: 06fe0c6f1328047d1063ec79291e7f8a
-    assemblyName: UnityEngine.Purchasing.Codeless.dll
-    namespaceName: UnityEngine.Purchasing
-    className: IAPListener
-  - hash:
-      serializedVersion: 2
       Hash: a8bad63dc38d5729e38889649e4ee034
     assemblyName: Assembly-CSharp.dll
     namespaceName: SojaExiles
@@ -1338,12 +1336,6 @@ ScriptsOnlyBuild:
     className: LensDistortion
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Purchasing.Stores.dll
-    namespaceName: UnityEngine.Purchasing
-    className: UIFakeStoreWindow
-  - hash:
-      serializedVersion: 2
       Hash: ca5252d6deaf2d103466dcbfc329b978
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1362,6 +1354,12 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewFood
+  - hash:
+      serializedVersion: 2
       Hash: 1ce6f757bda026ce273c4a348afe5c9a
     assemblyName: Assembly-CSharp.dll
     namespaceName: SojaExiles
@@ -1378,12 +1376,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: TrackedDeviceGraphicRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Purchasing.Stores.dll
-    namespaceName: UnityEngine.Purchasing
-    className: AsyncWebUtil
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1408,13 +1400,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NewFood
   platform: 13
   scenePathNames:
   - Assets/Scenes/Kitchen.unity
-  playerPath: D:/Columbia/Spring2022/COMS4172/the-incrEDIBLES/IncrEDIBLES/test.apk
+  playerPath: C:/Users/Megha/Documents/3D UI/Unity Projects/FP/the-incrEDIBLES/IncrEDIBLES/Build/incredibles3.apk
