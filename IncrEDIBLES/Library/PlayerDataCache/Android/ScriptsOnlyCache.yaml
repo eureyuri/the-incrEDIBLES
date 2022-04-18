@@ -14,6 +14,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
@@ -24,6 +26,8 @@ ScriptsOnlyBuild:
     Unity.XR.Interaction.Toolkit.Editor.dll:
     - UnityEditor.XR.Interaction.Toolkit.XRInteractionEditorSettings
     Unity.XR.Interaction.Toolkit.dll:
+    - UnityEngine.XR.Interaction.Toolkit.ActionBasedContinuousMoveProvider
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
     - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
     - UnityEngine.XR.Interaction.Toolkit.TeleportationArea
@@ -55,6 +59,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Kitchen.unity:
     - Class: 1
@@ -98,49 +104,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1602}
+      Script: {instanceID: 1588}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1618}
     - Class: 114
-      Script: {instanceID: 1882}
+      Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2022}
+      Script: {instanceID: 1974}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 3446}
+      Script: {instanceID: 3258}
     - Class: 114
-      Script: {instanceID: 3704}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 3786}
+      Script: {instanceID: 3496}
     - Class: 114
-      Script: {instanceID: 3814}
+      Script: {instanceID: 3566}
     - Class: 114
-      Script: {instanceID: 3860}
+      Script: {instanceID: 3592}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 3632}
     - Class: 114
-      Script: {instanceID: 4714}
+      Script: {instanceID: 3884}
     - Class: 114
-      Script: {instanceID: 5424}
+      Script: {instanceID: 4388}
     - Class: 114
-      Script: {instanceID: 5514}
+      Script: {instanceID: 5020}
     - Class: 114
-      Script: {instanceID: 5620}
+      Script: {instanceID: 5098}
     - Class: 114
-      Script: {instanceID: 6020}
+      Script: {instanceID: 5100}
     - Class: 114
-      Script: {instanceID: 6520}
+      Script: {instanceID: 5192}
     - Class: 114
-      Script: {instanceID: 6646}
+      Script: {instanceID: 5528}
     - Class: 114
-      Script: {instanceID: 6868}
+      Script: {instanceID: 5922}
     - Class: 114
-      Script: {instanceID: 7542}
+      Script: {instanceID: 5982}
     - Class: 114
-      Script: {instanceID: 7596}
+      Script: {instanceID: 6094}
+    - Class: 114
+      Script: {instanceID: 6296}
+    - Class: 114
+      Script: {instanceID: 6470}
+    - Class: 114
+      Script: {instanceID: 6902}
+    - Class: 114
+      Script: {instanceID: 6950}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1403,4 +1417,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Kitchen.unity
-  playerPath: C:/Users/Megha/Documents/3D UI/Unity Projects/FP/the-incrEDIBLES/IncrEDIBLES/Build/incredibles3.apk
+  playerPath: /Users/eureyuri/Desktop/School/Columbia/CS/3DUI/the-incrEDIBLES.nosync/IncrEDIBLES/build.apk
