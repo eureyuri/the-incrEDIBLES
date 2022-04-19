@@ -8598,7 +8598,6 @@ GameObject:
   - component: {fileID: 624737041}
   - component: {fileID: 624737040}
   - component: {fileID: 624737042}
-  - component: {fileID: 624737043}
   m_Layer: 0
   m_Name: knife_01
   m_TagString: Untagged
@@ -8813,24 +8812,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005215756, y: 0.06692748, z: 0.001999514}
   m_Center: {x: -0.00000004377216, y: 0.0000000055879354, z: 0.0000000034924597}
---- !u!114 &624737043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624737036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39b8f868af662cf479f83fdb38d4a0f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cut_num: {fileID: 2001562545}
-  cut_num1: {fileID: 1743370655}
-  cut_num2: {fileID: 635382455}
-  cutBoard: {fileID: 8553319517034227032}
-  cutBoard1: {fileID: 429797258}
-  cutBoard2: {fileID: 1516063876}
 --- !u!1 &631776960
 GameObject:
   m_ObjectHideFlags: 0
@@ -21634,7 +21615,6 @@ GameObject:
   - component: {fileID: 1640231201}
   - component: {fileID: 1640231200}
   - component: {fileID: 1640231202}
-  - component: {fileID: 1640231203}
   m_Layer: 0
   m_Name: knife_01
   m_TagString: knife1
@@ -21849,24 +21829,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005215756, y: 0.06692748, z: 0.001999514}
   m_Center: {x: -0.00000004377216, y: 0.000000004656613, z: 0.0000000034924597}
---- !u!114 &1640231203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640231196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39b8f868af662cf479f83fdb38d4a0f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cut_num: {fileID: 2001562545}
-  cut_num1: {fileID: 1743370655}
-  cut_num2: {fileID: 635382455}
-  cutBoard: {fileID: 8553319517034227032}
-  cutBoard1: {fileID: 1630259530}
-  cutBoard2: {fileID: 505144377}
 --- !u!1 &1651051645
 GameObject:
   m_ObjectHideFlags: 0
@@ -27957,7 +27919,6 @@ GameObject:
   - component: {fileID: 559719430536195819}
   - component: {fileID: 559719430536195818}
   - component: {fileID: 559719430536195820}
-  - component: {fileID: 559719430536195821}
   m_Layer: 0
   m_Name: knife_01
   m_TagString: knife
@@ -28009,19 +27970,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 559719430536195821}
-        m_TargetAssemblyTypeName: KnifeCut, Assembly-CSharp
-        m_MethodName: decrement
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -28106,7 +28055,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &559719430536195820
 BoxCollider:
@@ -28121,24 +28070,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005215756, y: 0.06692748, z: 0.001999514}
   m_Center: {x: -0.00000004377216, y: 0.000000013038516, z: 0.0000000034924597}
---- !u!114 &559719430536195821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 559719430536195817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39b8f868af662cf479f83fdb38d4a0f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cut_num: {fileID: 2001562545}
-  cut_num1: {fileID: 1743370655}
-  cut_num2: {fileID: 635382455}
-  cutBoard: {fileID: 8553319517034227032}
-  cutBoard1: {fileID: 1630259530}
-  cutBoard2: {fileID: 505144377}
 --- !u!4 &572108013430582565
 Transform:
   m_ObjectHideFlags: 0

@@ -10,14 +10,6 @@ public class CutCollision : MonoBehaviour
     public Text cut_num1;
     public Text cut_num2;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        // cut_num.enabled = false;
-        // cut_num1.enabled = false;
-        // cut_num2.enabled = false;
-    }
-
     public void OnCollisionEnter(Collision collision)
     {
         GameObject collided = collision.gameObject;
@@ -46,6 +38,24 @@ public class CutCollision : MonoBehaviour
                 GetComponent<Rigidbody>().isKinematic = true;
                 transform.parent = collided.transform;
                 transform.localPosition = new Vector3(0,0,0.0025f);
+            }
+            else if(collided.CompareTag("knife"))
+            {
+                if(cut_num.enabled == true)
+                {
+                    int current = int.Parse(cut_num.text);
+                    if(current == 1)
+                    {
+                        cut_num.text = "3";
+                        cut_num.enabled = false;
+                        GetComponent<XRGrabInteractable>().enabled = true;
+                        transform.parent = null;
+                    }
+                    else
+                    {
+                        cut_num.text = (current - 1).ToString();
+                    }
+                }
             }
         } 
         
