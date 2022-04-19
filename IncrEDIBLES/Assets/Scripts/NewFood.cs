@@ -20,8 +20,9 @@ public class NewFood : MonoBehaviour
         if(first)
         {
             GameObject clone = Instantiate(gameObject, pos, rot);
-            first = true;
+            first = false;
         }
         GetComponent<Rigidbody>().isKinematic = false;
+        transform.parent = null;
     }
 }
