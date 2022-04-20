@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class fryingFood : MonoBehaviour
+public class BoilingFood : MonoBehaviour
 {
     public GameObject cookTimer;
     [SerializeField] public Image greenFill;
     public GameObject overcookTimer;
     [SerializeField] public Image redFill;
-    public int Duration = 6000;
+    public int Duration = 1000;
     private int remainingDuration;
     private Vector3 position;
     private Quaternion rotation;
     private GameObject collisionObject;
     private GameObject newPrefab;
-    public GameObject steakPrefab;
-    public GameObject steakOvercookedPrefab;
+    public GameObject pastaCookedPrefab;
+    public GameObject pastaOvercookedPrefab;
 
     void Start()
     {
@@ -26,16 +26,15 @@ public class fryingFood : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Ingredient put in frying pan");
+        Debug.Log("Pasta put to boil");
         collisionObject = collision.gameObject;
         position = collisionObject.transform.position;
         rotation = collisionObject.transform.rotation;
 
-        if (collision.gameObject.CompareTag("Steak"))
+        if (collision.gameObject.CompareTag("Pasta"))
         {
-            Debug.Log("Steak put in frying pan");
             cookTimer.SetActive(true);
-            newPrefab = steakPrefab;
+            newPrefab = pastaCookedPrefab;
             Begin(Duration, greenFill);
         }
 
@@ -61,7 +60,7 @@ public class fryingFood : MonoBehaviour
         {
             cookTimer.SetActive(false);
             overcookTimer.SetActive(true);
-            newPrefab = steakOvercookedPrefab;
+            newPrefab = pastaOvercookedPrefab;
             Begin(Duration, redFill);
         }
         else 
