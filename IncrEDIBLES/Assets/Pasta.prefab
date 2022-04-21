@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 5796275123256914092}
   - component: {fileID: 5796275123256914083}
   - component: {fileID: 5796275123256914082}
-  - component: {fileID: 5796275123256914095}
   m_Layer: 0
   m_Name: Pasta
   m_TagString: Pasta
@@ -254,18 +253,3 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &5796275123256914095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6679375162680888863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83d262f1dff241a468bdbb4c88f7cb76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cut_num: {fileID: 0}
-  cut_num1: {fileID: 0}
-  cut_num2: {fileID: 0}
