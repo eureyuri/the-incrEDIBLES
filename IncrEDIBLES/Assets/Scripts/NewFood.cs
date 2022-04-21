@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class NewFood : MonoBehaviour
 {
@@ -20,8 +21,10 @@ public class NewFood : MonoBehaviour
         if(first)
         {
             GameObject clone = Instantiate(gameObject, pos, rot);
-            first = true;
+            clone.GetComponent<XRGrabInteractable>().enabled = true;
+            first = false;
         }
         GetComponent<Rigidbody>().isKinematic = false;
+        transform.parent = null;
     }
 }

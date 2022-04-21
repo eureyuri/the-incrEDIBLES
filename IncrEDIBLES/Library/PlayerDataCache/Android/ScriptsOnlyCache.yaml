@@ -1,11 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BoilingFood
     - Consumer
+    - CutCollision
     - HandPresence
     - LocomotionController
     - NewFood
     - Sigtrap.VrTunnellingPro.Tunnelling
+    - fryingFood
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -60,6 +63,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
     com.unity.multiplayer-hlapi.Runtime.dll:
     - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
@@ -86,6 +90,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -105,62 +111,72 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1588}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1618}
+      Script: {instanceID: 1652}
     - Class: 114
-      Script: {instanceID: 1846}
+      Script: {instanceID: 1884}
     - Class: 114
-      Script: {instanceID: 1974}
+      Script: {instanceID: 2016}
     - Class: 114
-      Script: {instanceID: 2574}
+      Script: {instanceID: 2482}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 3258}
+      Script: {instanceID: 2770}
     - Class: 114
-      Script: {instanceID: 3494}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 3496}
+      Script: {instanceID: 3548}
     - Class: 114
-      Script: {instanceID: 3566}
+      Script: {instanceID: 3550}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3620}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 3646}
     - Class: 114
-      Script: {instanceID: 3884}
+      Script: {instanceID: 3686}
     - Class: 114
-      Script: {instanceID: 4388}
+      Script: {instanceID: 3942}
     - Class: 114
-      Script: {instanceID: 5020}
+      Script: {instanceID: 4452}
     - Class: 114
-      Script: {instanceID: 5098}
+      Script: {instanceID: 5002}
     - Class: 114
-      Script: {instanceID: 5100}
+      Script: {instanceID: 5090}
     - Class: 114
-      Script: {instanceID: 5192}
+      Script: {instanceID: 5172}
     - Class: 114
-      Script: {instanceID: 5528}
+      Script: {instanceID: 5174}
     - Class: 114
-      Script: {instanceID: 5922}
+      Script: {instanceID: 5264}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5600}
     - Class: 114
-      Script: {instanceID: 6094}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 6296}
+      Script: {instanceID: 6058}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 6170}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6370}
     - Class: 114
-      Script: {instanceID: 6950}
+      Script: {instanceID: 6544}
     - Class: 114
-      Script: {instanceID: 119038}
+      Script: {instanceID: 6670}
+    - Class: 114
+      Script: {instanceID: 6978}
+    - Class: 114
+      Script: {instanceID: 7026}
+    - Class: 114
+      Script: {instanceID: 7116}
+    - Class: 114
+      Script: {instanceID: 7316}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -220,12 +236,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: StartGame
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
@@ -279,10 +289,22 @@ ScriptsOnlyBuild:
     className: ActionBasedController
   - hash:
       serializedVersion: 2
+      Hash: 8165c07b786239a751ff47105e814361
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sigtrap.VrTunnellingPro
+    className: TunnellingPresetMobile
+  - hash:
+      serializedVersion: 2
       Hash: 2d82c073b84b03cf0a14c985f1c3b914
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRInteractorLineVisual
+  - hash:
+      serializedVersion: 2
+      Hash: f23694973fd83e95d2af3a82157738e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sigtrap.VrTunnellingPro
+    className: TunnellingOpaque
   - hash:
       serializedVersion: 2
       Hash: cbcba329b6375fc80724cdb84c225697
@@ -349,6 +371,12 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 53b0a79c3eea02280bb321fbead45e0a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoilingFood
   - hash:
       serializedVersion: 2
       Hash: 5b2330da860cd1fc7110dfd2c3c1535f
@@ -421,6 +449,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 4d2917564bb908c967ec25608207bdc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sigtrap.VrTunnellingPro
+    className: TunnellingMaskObjectMobile
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -535,6 +569,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.Advertisements.dll
     namespaceName: UnityEngine.Advertisements.Platform.Editor
     className: BannerPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: ffbd551bfc2edc364bb99e654350f722
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sigtrap.VrTunnellingPro
+    className: TunnellingMobile
   - hash:
       serializedVersion: 2
       Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
@@ -669,6 +709,12 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 677c3f4c3e11e777aea87f93064153f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: foodTimer
+  - hash:
+      serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -733,6 +779,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
     className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 4d2917564bb908c967ec25608207bdc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sigtrap.VrTunnellingPro
+    className: TunnellingMaskObject
   - hash:
       serializedVersion: 2
       Hash: d5630f96bd5a6a6eed7e1754c3fb8703
@@ -891,6 +943,12 @@ ScriptsOnlyBuild:
     className: InputActionEditorWindow
   - hash:
       serializedVersion: 2
+      Hash: 806a1b28b8b1dfedeba65dc2496673a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sigtrap.VrTunnellingPro
+    className: TunnellingPreset
+  - hash:
+      serializedVersion: 2
       Hash: fc169718e5fd24cea7425f24908c0418
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
@@ -919,6 +977,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 626d0d192ba00b074d0723d4d6ec48c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sigtrap.VrTunnellingPro.Examples
+    className: VRTP_ExampleMovement
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -961,12 +1025,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRSocketInteractor
-  - hash:
-      serializedVersion: 2
-      Hash: 64cfff131b9b0908b051722132963bc0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Timer
   - hash:
       serializedVersion: 2
       Hash: 0247b3226bce1611f95bef667f3a55b3
@@ -1114,12 +1172,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ChangeScene
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.Advertisements.dll
     namespaceName: UnityEngine.Advertisements.Utilities
     className: ApplicationQuit
@@ -1177,12 +1229,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Score
   - hash:
       serializedVersion: 2
       Hash: 2d22adb9be23ab6264808f74bae28251
@@ -1311,6 +1357,12 @@ ScriptsOnlyBuild:
     className: NetworkLobbyPlayer
   - hash:
       serializedVersion: 2
+      Hash: 0f070f54563f41286766b89b591e90e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: fryingFood
+  - hash:
+      serializedVersion: 2
       Hash: 893dbdbfe611d62e230a686ea89f1efd
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
@@ -1395,6 +1447,12 @@ ScriptsOnlyBuild:
     className: TrackedDeviceGraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: f23694973fd83e95d2af3a82157738e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sigtrap.VrTunnellingPro
+    className: Tunnelling
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -1419,52 +1477,10 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: ffbd551bfc2edc364bb99e654350f722
+      Hash: f6bfeaab56888e9a106e118693c7a3ae
     assemblyName: Assembly-CSharp.dll
-    namespaceName: Sigtrap.VrTunnellingPro
-    className: TunnellingMobile
-  - hash:
-      serializedVersion: 2
-      Hash: 4d2917564bb908c967ec25608207bdc2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Sigtrap.VrTunnellingPro
-    className: TunnellingMaskObjectMobile
-  - hash:
-      serializedVersion: 2
-      Hash: 8165c07b786239a751ff47105e814361
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Sigtrap.VrTunnellingPro
-    className: TunnellingPresetMobile
-  - hash:
-      serializedVersion: 2
-      Hash: f23694973fd83e95d2af3a82157738e8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Sigtrap.VrTunnellingPro
-    className: Tunnelling
-  - hash:
-      serializedVersion: 2
-      Hash: 4d2917564bb908c967ec25608207bdc2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Sigtrap.VrTunnellingPro
-    className: TunnellingMaskObject
-  - hash:
-      serializedVersion: 2
-      Hash: f23694973fd83e95d2af3a82157738e8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Sigtrap.VrTunnellingPro
-    className: TunnellingOpaque
-  - hash:
-      serializedVersion: 2
-      Hash: 806a1b28b8b1dfedeba65dc2496673a0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Sigtrap.VrTunnellingPro
-    className: TunnellingPreset
-  - hash:
-      serializedVersion: 2
-      Hash: 626d0d192ba00b074d0723d4d6ec48c0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Sigtrap.VrTunnellingPro.Examples
-    className: VRTP_ExampleMovement
+    namespaceName: 
+    className: CutCollision
   platform: 13
   scenePathNames:
   - Assets/Scenes/Kitchen.unity

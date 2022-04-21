@@ -6,7 +6,7 @@ public class LocomotionController : MonoBehaviour
 {
     public XRController leftTeleportRay;
     public InputHelpers.Button teleportActivationButton;
-    public float activationThreshold = 0.1f;
+    public float activationThreshold = 0.05f;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +24,7 @@ public class LocomotionController : MonoBehaviour
 
     public bool checkIfActivated(XRController controller)
     {
-        InputHelpers.IsPressed(controller.inputDevice, teleportActivationButton, out bool isActivated);
+        InputHelpers.IsPressed(controller.inputDevice, teleportActivationButton, out bool isActivated, activationThreshold);
         return isActivated;
     }
 }
