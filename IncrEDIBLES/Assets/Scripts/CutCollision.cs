@@ -9,6 +9,7 @@ public class CutCollision : MonoBehaviour
     public Text cut_num;
     public Text cut_num1;
     public Text cut_num2;
+    public Material cooked;
 
     public void OnCollisionEnter(Collision collision)
     {
@@ -49,6 +50,8 @@ public class CutCollision : MonoBehaviour
                         cut_num.text = "3";
                         cut_num.enabled = false;
                         GetComponent<XRGrabInteractable>().enabled = true;
+                        var render = GetComponent<Renderer>();
+                        render.material = cooked;
                         transform.parent = null;
                     }
                     else
