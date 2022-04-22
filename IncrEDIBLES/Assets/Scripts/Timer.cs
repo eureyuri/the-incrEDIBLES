@@ -5,8 +5,8 @@ using UnityEngine;
 public class Timer : MonoBehaviour
 {
     public float initialTime;
-    private float timeRemaining;
-    private TimerState timerState;
+    private static float timeRemaining;
+    private static TimerState timerState;
 
     // Start is called before the first frame update
     void Start()
@@ -28,11 +28,11 @@ public class Timer : MonoBehaviour
         }
     }
 
-    public float getRemainingTime() {
+    public static float getRemainingTime() {
         return timeRemaining;
     }
 
-    public TimerState getTimerState() {
+    public static TimerState getTimerState() {
         return timerState;
     }
 }

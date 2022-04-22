@@ -6,21 +6,27 @@ public class AudioPlayer : MonoBehaviour
 {
     public AudioSource audioSourceNormal;
     public AudioSource audioSourceLast;
+    public AudioSource audioGameOver;
+    private bool isOverPlayed;
 
     void Start()
     {
-        audioSourceNormal.PlayScheduled(AudioSettings.dspTime);
-
-        // Queue next music
-        double clipLength = audioSourceNormal.clip.samples / audioSourceNormal.clip.frequency;
-        audioSourceLast.PlayScheduled(AudioSettings.dspTime + clipLength);
+        audioSourceNormal.Play();
+        isOverPlayed = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         // Stop audio after 3 min
-        if (AudioSettings.dspTime == 180) audioSourceLast.Stop();
+        if (Timer.getRemainingTime() <= 0 && !isOverPlayed) {
+            audioGameOver.Play();
+            isOverPlayed = true;
+            audioSourceLast.Stop();
+        }
 
+        if (Timer.getRemainingTime() < 35 && Timer.getRemainingTime() > 0 && !audioSourceLast.isPlaying) {
+            audioSourceNormal.Stop();
+            audioSourceLast.Play();
+        }
     }
 }
