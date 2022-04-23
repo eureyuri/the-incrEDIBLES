@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kitchen.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Start-Screen.unity
+    guid: 406eabb6a172842af8b8d0edc432df08
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 980c9920b898dcf4589b0ca692ae7128, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6338647749117904f8f443ca3318c808, type: 2}
