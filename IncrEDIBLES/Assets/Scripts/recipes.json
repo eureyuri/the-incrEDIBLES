@@ -1,0 +1,95 @@
+{
+    "recipes": [
+        {
+            "name": "tomato pasta",
+            "ingredients": ["pasta", "tomato"],
+            "score": 10
+        },
+        {
+            "name": "tomato cheese pasta",
+            "ingredients": ["pasta", "tomato", "cheese"],
+            "score": 15
+        },
+        {
+            "name": "tomato mushroom pasta",
+            "ingredients": ["pasta", "tomato", "mushroom"],
+            "score": 20
+        },
+        {
+            "name": "tomato meat pasta",
+            "ingredients": ["pasta", "tomato", "meat"],
+            "score": 15
+        },
+        {
+            "name": "tomato fish pasta",
+            "ingredients": ["pasta", "tomato", "fish"],
+            "score": 20
+        },
+        {
+            "name": "tomato mushroom fish pasta",
+            "ingredients": ["pasta", "tomato", "fish", "mushroom"],
+            "score": 30
+        },
+        {
+            "name": "tomato mushroom meat pasta",
+            "ingredients": ["pasta", "tomato", "meat", "mushroom"],
+            "score": 25
+        },
+        {
+            "name": "cheese pasta",
+            "ingredients": ["pasta", "cheese"],
+            "score": 10
+        },
+        {
+            "name": "cheese mushroom pasta",
+            "ingredients": ["pasta", "cheese", "mushroom"],
+            "score": 20
+        },
+        {
+            "name": "cheese meat pasta",
+            "ingredients": ["pasta", "cheese", "meat"],
+            "score": 15
+        },
+        {
+            "name": "cheese fish pasta",
+            "ingredients": ["pasta", "cheese", "fish"],
+            "score": 20
+        },
+        {
+            "name": "cheese mushroom fish pasta",
+            "ingredients": ["pasta", "cheese", "fish", "mushroom"],
+            "score": 30
+        },
+        {
+            "name": "cheese mushroom meat pasta",
+            "ingredients": ["pasta", "cheese", "meat", "mushroom"],
+            "score": 30
+        }
+    ],
+    "directions": [
+        {
+            "name": "pasta",
+            "procedure": ["boil"]
+        },
+        {
+            "name": "fish",
+            "procedure": ["cut", "saute"]
+        },
+        {
+            "name": "mushroom",
+            "procedure": ["cut", "saute"]
+        },
+        {
+            "name": "tomato",
+            "procedure": ["cut", "saute"]
+        },
+        {
+            "name": "cheese",
+            "procedure": ["cut"]
+        },
+        {
+            "name": "meat",
+            "procedure": ["saute"]
+        }
+    ]
+}
