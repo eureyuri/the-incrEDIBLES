@@ -6,6 +6,11 @@
             "score": 10
         },
         {
+            "name": "tomato cheese pasta",
+            "ingredients": ["pasta", "tomato", "cheese"],
+            "score": 15
+        },
+        {
             "name": "tomato mushroom pasta",
             "ingredients": ["pasta", "tomato", "mushroom"],
             "score": 20

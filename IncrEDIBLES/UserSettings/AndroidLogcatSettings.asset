@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "1WMHHB61U62025",
         "name": "com.DefaultCompany.IncrEDIBLES",
-        "processId": 14919,
+        "processId": 15638,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -150,6 +150,12 @@
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 14919,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 15638,
             "exited": false
         }
     ],

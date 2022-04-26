@@ -13,7 +13,19 @@ public class Recipes : MonoBehaviour
     public GameObject recipeCard2;
     public GameObject recipeCard3;
     public GameObject recipeCard4;
-    public Sprite sampleDish;
+    public Sprite tomatoPasta;
+    public Sprite tomatoCheesePasta;
+    public Sprite tomatoMushroomPasta;
+    public Sprite tomatoMeatPasta;
+    public Sprite tomatoFishPasta;
+    public Sprite tomatoMushroomFishPasta;
+    public Sprite tomatoMushroomMeatPasta;
+    public Sprite cheesePasta;
+    public Sprite cheeseMushroomPasta;
+    public Sprite cheeseMeatPasta;
+    public Sprite cheeseFishPasta;
+    public Sprite cheeseMushroomFishPasta;
+    public Sprite cheeseMushroomMeatPasta;
     public Sprite pasta;
     public Sprite fish;
     public Sprite mushroom;
@@ -93,7 +105,24 @@ public class Recipes : MonoBehaviour
             default: xPos = 0; break;
         }
 
-        recipeCard.transform.GetChild(0).GetComponent<Image>().sprite = sampleDish;
+        Sprite dish;
+        switch (recipe.name) {
+            case "tomato pasta": dish = tomatoPasta; break;
+            case "tomato cheese pasta": dish = tomatoCheesePasta; break;
+            case "tomato mushroom pasta": dish = tomatoMushroomPasta; break;
+            case "tomato meat pasta": dish = tomatoMeatPasta; break;
+            case "tomato fish pasta": dish = tomatoFishPasta; break;
+            case "tomato mushroom fish pasta": dish = tomatoMushroomFishPasta; break;
+            case "tomato mushroom meat pasta": dish = tomatoMushroomMeatPasta; break;
+            case "cheese pasta": dish = cheesePasta; break;
+            case "cheese mushroom pasta": dish = cheeseMushroomPasta; break;
+            case "cheese meat pasta": dish = cheeseMeatPasta; break;
+            case "cheese fish pasta": dish = cheeseFishPasta; break;
+            case "cheese mushroom fish pasta": dish = cheeseMushroomFishPasta; break;
+            case "cheese mushroom meat pasta": dish = cheeseMushroomMeatPasta; break;
+            default: dish = null; break;
+        }
+        recipeCard.transform.GetChild(0).GetComponent<Image>().sprite = dish;
 
         Transform ingredientList = recipeCard.transform.GetChild(1);
         Transform ingredientInst1 = recipeCard.transform.GetChild(2);

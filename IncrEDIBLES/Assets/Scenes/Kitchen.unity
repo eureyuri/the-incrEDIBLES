@@ -24255,7 +24255,19 @@ MonoBehaviour:
   recipeCard2: {fileID: 8687271646353319782, guid: 27eedaf889e34424da083a6600a0d452, type: 3}
   recipeCard3: {fileID: 5218937576951972456, guid: 33d40c4a9be0cc343b863c4afbd5a095, type: 3}
   recipeCard4: {fileID: 679845697990642276, guid: 6d704f6575790c04aa066492b28ab4f7, type: 3}
-  sampleDish: {fileID: 21300000, guid: 4b10fefe2d371d141a0216b7fe0731fc, type: 3}
+  tomatoPasta: {fileID: 21300000, guid: 4b10fefe2d371d141a0216b7fe0731fc, type: 3}
+  tomatoCheesePasta: {fileID: 21300000, guid: 6260c28917cc34fb9a2e6a6426509153, type: 3}
+  tomatoMushroomPasta: {fileID: 21300000, guid: 6d1c8a05619384ef7a7d04df3e2cad7f, type: 3}
+  tomatoMeatPasta: {fileID: 21300000, guid: bd72c6a06180a41a996bec67f7d3d87b, type: 3}
+  tomatoFishPasta: {fileID: 21300000, guid: 7e9fc90a4ab2348e18997965472ea40e, type: 3}
+  tomatoMushroomFishPasta: {fileID: 21300000, guid: e931bf6621eac44288d8f8aa316e4e1a, type: 3}
+  tomatoMushroomMeatPasta: {fileID: 21300000, guid: d569f95241add4acc89964978a58bd93, type: 3}
+  cheesePasta: {fileID: 21300000, guid: 5b58d416988934a5288e19e18862f151, type: 3}
+  cheeseMushroomPasta: {fileID: 21300000, guid: 6be7703f3c3174ae5b214234bbbc3d2b, type: 3}
+  cheeseMeatPasta: {fileID: 21300000, guid: dace105714b054cfd8a704fe4aa8b51b, type: 3}
+  cheeseFishPasta: {fileID: 21300000, guid: 21a0573c2876843e18086f605081e106, type: 3}
+  cheeseMushroomFishPasta: {fileID: 21300000, guid: 545595ce64d5d47c1930c442f7db1abe, type: 3}
+  cheeseMushroomMeatPasta: {fileID: 21300000, guid: 5138518f9dea645a4a03d3a57583c6e7, type: 3}
   pasta: {fileID: 21300000, guid: 7e1a522e1f43c0542a779bf314be5b64, type: 3}
   fish: {fileID: 21300000, guid: 8e20cb846d9ff224aac155572ec96305, type: 3}
   mushroom: {fileID: 21300000, guid: b02951e72ca2f5848ab8de9be02f4d91, type: 3}
