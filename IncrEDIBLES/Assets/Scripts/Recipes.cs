@@ -141,15 +141,13 @@ public class Recipes : MonoBehaviour
             ingredientList.GetChild(i).GetComponent<Image>().sprite = ingredientToAdd;
 
             string[] procedure = null;
-            Debug.Log("searching procedure 1: " + recipe.ingredients[i]);
             for (int j = 0; j < recipes.directions.Length; j++) {
-                Debug.Log("searching procedure 2: " + recipes.directions[j].name);
                 if (recipe.ingredients[i] == recipes.directions[j].name) {
                     procedure = recipes.directions[j].procedure;
                     break;
                 }
             }
-            Debug.Log("final procedure: " + procedure);
+
             for (int j = 0; j < procedure.Length; j++) {
                 Sprite instToAdd;
                 switch (procedure[j]) {
@@ -159,7 +157,6 @@ public class Recipes : MonoBehaviour
                     default: instToAdd = null; break;
                 }
 
-                Debug.Log("appending procedure: " + procedure[j]);
                 if (j == 0) {
                     ingredientInst1.GetChild(i).GetComponent<Image>().sprite = instToAdd;
                 } else if (j == 1) {
@@ -167,7 +164,6 @@ public class Recipes : MonoBehaviour
                 }
 
             }
-            Debug.Log("finished: " + i);
         }
 
         GameObject card = Instantiate(recipeCard, new Vector3(xPos, 25.1f, 0), Quaternion.identity) as GameObject;
