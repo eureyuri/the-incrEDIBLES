@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "1WMHHB61U62025",
         "name": "com.DefaultCompany.IncrEDIBLES",
-        "processId": 6204,
+        "processId": 6900,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,37 +11,61 @@
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 2687,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHHB61U62025",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 3485,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHHB61U62025",
-            "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 4307,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 4671,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 5221,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 6204,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 4545,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 4910,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 5400,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 5845,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 6260,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 6900,
             "exited": false
         }
     ],
