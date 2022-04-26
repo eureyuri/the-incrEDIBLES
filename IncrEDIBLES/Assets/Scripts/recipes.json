@@ -61,12 +61,30 @@
             "score": 30
         }
     ],
-    "directions": {
-        "pasta": ["boil"],
-        "fish": ["cut", "saute"],
-        "mushroom": ["cut", "saute"],
-        "tomato": ["cut", "saute"],
-        "cheese": ["cut"],
-        "meat": ["saute"]
-    }
+    "directions": [
+        {
+            "name": "pasta",
+            "procedure": ["boil"]
+        },
+        {
+            "name": "fish",
+            "procedure": ["cut", "saute"]
+        },
+        {
+            "name": "mushroom",
+            "procedure": ["cut", "saute"]
+        },
+        {
+            "name": "tomato",
+            "procedure": ["cut", "saute"]
+        },
+        {
+            "name": "cheese",
+            "procedure": ["cut"]
+        },
+        {
+            "name": "meat",
+            "procedure": ["saute"]
+        }
+    ]
 }
