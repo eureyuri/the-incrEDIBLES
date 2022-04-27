@@ -12,6 +12,8 @@ TagManager:
   - Steak
   - Pasta
   - Canvas
+  - ReadyTomato
+  - ReadyPasta
   layers:
   - Default
   - TransparentFX
