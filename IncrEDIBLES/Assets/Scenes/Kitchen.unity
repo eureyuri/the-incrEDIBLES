@@ -13638,6 +13638,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoPasta
+      value: 
+      objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
     - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -29528,6 +29532,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoPasta
+      value: 
+      objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
     - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -39787,6 +39795,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoPasta
+      value: 
+      objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
     - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_InteractionManager
       value: 
