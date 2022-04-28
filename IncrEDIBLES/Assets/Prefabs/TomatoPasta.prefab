@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4259621101093653729
+--- !u!1001 &4562678778673011501
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -25,15 +25,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: -4.518
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.9146451
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3.434
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -66,10 +66,14 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6f09aa6f240474dfc82a391de0a1be9c, type: 2}
+      objectReference: {fileID: 2100000, guid: 7bb8cca3f380fa1488a5460e33714ad5, type: 2}
     - target: {fileID: 919132149155446097, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
       propertyPath: m_Name
-      value: PastaCooked
+      value: TomatoPasta
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
+      propertyPath: m_TagString
+      value: ReadyPasta
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}

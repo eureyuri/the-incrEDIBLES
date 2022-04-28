@@ -97,11 +97,11 @@ public class Recipes : MonoBehaviour
 
         float xPos;
         switch (index) {
-            case 0: xPos = -19f; break;
-            case 1: xPos = -7.99f; break;
-            case 2: xPos = 3.1f; break;
-            case 3: xPos = 14.16f; break;
-            case 4: xPos = 25.5f; break;
+            case 0: xPos = -25f; break;
+            case 1: xPos = -13.99f; break;
+            case 2: xPos = -3.1f; break;
+            case 3: xPos = 7.16f; break;
+            case 4: xPos = 18.5f; break;
             default: xPos = 0; break;
         }
 
