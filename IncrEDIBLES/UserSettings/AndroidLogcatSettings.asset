@@ -3,29 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "1WMHHB61U62025",
         "name": "com.DefaultCompany.IncrEDIBLES",
-        "processId": 6454,
+        "processId": 25625,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "1WMHHB61U62025",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 5288,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHHB61U62025",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 4129,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHHB61U62025",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 4673,
-            "exited": true
-        },
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
@@ -42,6 +24,24 @@
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 6454,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 23471,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 23956,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 25625,
             "exited": false
         }
     ],
