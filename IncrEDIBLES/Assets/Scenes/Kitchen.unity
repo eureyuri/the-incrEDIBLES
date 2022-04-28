@@ -11986,6 +11986,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 828196187}
     m_Modifications:
+    - target: {fileID: -5879809755610880114, guid: 6414098d953f94007b7a926275272295, type: 3}
+      propertyPath: m_TeleportTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4902333365990066267, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_Name
       value: TeleportArea (2)
@@ -12000,7 +12004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20450,6 +20454,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 828196187}
     m_Modifications:
+    - target: {fileID: -5879809755610880114, guid: 6414098d953f94007b7a926275272295, type: 3}
+      propertyPath: m_TeleportTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4902333365990066267, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_Name
       value: TeleportArea (3)
@@ -20464,7 +20472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22014,6 +22022,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 828196187}
     m_Modifications:
+    - target: {fileID: -5879809755610880114, guid: 6414098d953f94007b7a926275272295, type: 3}
+      propertyPath: m_TeleportTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4902333365990066267, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_Name
       value: TeleportArea (4)
@@ -22028,7 +22040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23742,6 +23754,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 828196187}
     m_Modifications:
+    - target: {fileID: -5879809755610880114, guid: 6414098d953f94007b7a926275272295, type: 3}
+      propertyPath: m_TeleportTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4902333365990066267, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_Name
       value: TeleportArea (1)
@@ -23756,7 +23772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30126,6 +30142,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 828196187}
     m_Modifications:
+    - target: {fileID: -5879809755610880114, guid: 6414098d953f94007b7a926275272295, type: 3}
+      propertyPath: m_TeleportTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4902333365990066267, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_Name
       value: TeleportArea (5)
@@ -30140,7 +30160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.z
@@ -35088,6 +35108,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 828196187}
     m_Modifications:
+    - target: {fileID: -5879809755610880114, guid: 6414098d953f94007b7a926275272295, type: 3}
+      propertyPath: m_TeleportTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4902333365990066267, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_Name
       value: TeleportArea
@@ -35102,7 +35126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 6054937173899902119, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_LocalPosition.z
