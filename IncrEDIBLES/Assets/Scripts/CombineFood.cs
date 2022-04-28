@@ -7,7 +7,10 @@ public class CombineFood : MonoBehaviour
 {
     private List<string> foodOnPlate;
     public GameObject tomatoPasta;
+    public GameObject tomatoCheesePasta;
+    public GameObject tomatoMeatPasta;
     public GameObject cheesePasta;
+    public GameObject cheeseMeatPasta;
     public GameObject intermediateDish;
 
     void Start() {
@@ -21,6 +24,8 @@ public class CombineFood : MonoBehaviour
             AddOne(collided);
         } else if (foodOnPlate.Count == 1) {
             CombineTwo(collided);
+        } else if (foodOnPlate.Count == 2) {
+            CombineThree(collided);
         }
     }
 
@@ -35,7 +40,7 @@ public class CombineFood : MonoBehaviour
     }
 
     private bool IsValidFood(GameObject collided) {
-        return (collided.CompareTag("ReadyPasta") || collided.CompareTag("ReadyTomato") || collided.CompareTag("ReadyCheese"));
+        return (collided.CompareTag("ReadyPasta") || collided.CompareTag("ReadyTomato") || collided.CompareTag("ReadyCheese") || collided.CompareTag("ReadyMeat"));
     }
 
     private void AddToPlate(GameObject collided) {
@@ -58,7 +63,7 @@ public class CombineFood : MonoBehaviour
 
     private void CombineTwo(GameObject collided) {
         if (IsValidFood(collided)) {
-            Debug.Log("CombineFood: AddTwo");
+            Debug.Log("CombineFood: CombineTwo");
             AddToPlate(collided);
 
             if (foodOnPlate.Contains("pasta") && foodOnPlate.Contains("tomato")) {
@@ -80,6 +85,33 @@ public class CombineFood : MonoBehaviour
             //     childObject.transform.parent = transform;
             //     childObject.transform.localPosition = new Vector3(0, 0.1f, 0);
             // }
+        }
+    }
+
+    private void CombineThree(GameObject collided) {
+        if (IsValidFood(collided)) {
+            Debug.Log("CombineFood: CombineThree");
+            AddToPlate(collided);
+
+            if (foodOnPlate.Contains("pasta") && foodOnPlate.Contains("tomato") && foodOnPlate.Contains("cheese")) {
+                Destroy(transform.GetChild(0).gameObject);
+                Destroy(collided);
+                GameObject childObject = Instantiate(tomatoCheesePasta) as GameObject;
+                childObject.transform.parent = transform;
+                childObject.transform.localPosition = new Vector3(0, 0.1f, 0);
+            } else if (foodOnPlate.Contains("pasta") && foodOnPlate.Contains("tomato") && foodOnPlate.Contains("meat")) {
+                Destroy(transform.GetChild(0).gameObject);
+                Destroy(collided);
+                GameObject childObject = Instantiate(tomatoMeatPasta) as GameObject;
+                childObject.transform.parent = transform;
+                childObject.transform.localPosition = new Vector3(0, 0.1f, 0);
+            } else if (foodOnPlate.Contains("pasta") && foodOnPlate.Contains("cheese") && foodOnPlate.Contains("meat")) {
+                Destroy(transform.GetChild(0).gameObject);
+                Destroy(collided);
+                GameObject childObject = Instantiate(cheeseMeatPasta) as GameObject;
+                childObject.transform.parent = transform;
+                childObject.transform.localPosition = new Vector3(0, 0.1f, 0);
+            }
         }
     }
 }

@@ -15,6 +15,9 @@ TagManager:
   - ReadyTomato
   - ReadyPasta
   - ReadyCheese
+  - ReadyFish
+  - ReadyMeat
+  - ReadyMushroom
   layers:
   - Default
   - TransparentFX
