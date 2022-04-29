@@ -1304,8 +1304,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0072758244, y: 0.011461017, z: 0.00092162366}
-  m_Center: {x: 0, y: -0.002092595, z: 0.00072952395}
+  m_Size: {x: 0.005, y: 0.005, z: 0.0001}
+  m_Center: {x: 0, y: 0, z: 0.000558239}
 --- !u!23 &106964085
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7461,8 +7461,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.004376104, y: 0.008031055, z: 0.0022834027}
-  m_Center: {x: 0, y: -0.0018274754, z: 0.0011417014}
+  m_Size: {x: 0.004, y: 0.004, z: 0.0001}
+  m_Center: {x: 0, y: 0.0002, z: 0.001}
 --- !u!114 &461260459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11909,8 +11909,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0072758244, y: 0.011461017, z: 0.00092162366}
-  m_Center: {x: 0, y: -0.002092595, z: 0.00072952395}
+  m_Size: {x: 0.005, y: 0.005, z: 0.0001}
+  m_Center: {x: 0, y: 0, z: 0.000558239}
 --- !u!23 &746774661
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26452,8 +26452,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.004376104, y: 0.008031055, z: 0.0022834027}
-  m_Center: {x: 0, y: -0.0018274754, z: 0.0011417014}
+  m_Size: {x: 0.004, y: 0.004, z: 0.0001}
+  m_Center: {x: 0, y: 0.0002, z: 0.001}
 --- !u!114 &1636620658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34689,8 +34689,8 @@ GameObject:
   - component: {fileID: 1659813746467546957}
   - component: {fileID: 3533323856944900593}
   - component: {fileID: 6283564965586571086}
-  - component: {fileID: 1135606185417986557}
   - component: {fileID: 1135606185417986558}
+  - component: {fileID: 1135606185417986557}
   m_Layer: 0
   m_Name: fryingPan_01
   m_TagString: Untagged
@@ -34701,16 +34701,16 @@ GameObject:
 --- !u!65 &1135606185417986557
 BoxCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5268293710728416453, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
-  m_PrefabInstance: {fileID: 5106737799008558392}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135606185417986556}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0072758244, y: 0.011461017, z: 0.00092162366}
-  m_Center: {x: 0, y: -0.002092595, z: 0.00072952395}
+  m_Size: {x: 0.005, y: 0.005, z: 0.0001}
+  m_Center: {x: 0, y: 0, z: 0.000558239}
 --- !u!114 &1135606185417986558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37341,8 +37341,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.004376104, y: 0.008031055, z: 0.0022834027}
-  m_Center: {x: 0, y: -0.0018274754, z: 0.0011417014}
+  m_Size: {x: 0.004, y: 0.004, z: 0.0001}
+  m_Center: {x: 0, y: 0.0002, z: 0.001}
 --- !u!23 &5101377493180220276
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37415,9 +37415,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: fryingPan_01
       objectReference: {fileID: 0}
+    - target: {fileID: 5268293710728416453, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268293710728416453, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5268293710728416454, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
       propertyPath: Duration
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268293710728416454, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5268293710728416454, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
       propertyPath: steakPrefab
@@ -37467,7 +37479,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
 --- !u!1 &5121876799490563504
 GameObject:

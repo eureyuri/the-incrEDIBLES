@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class BoilingFood : MonoBehaviour
 {
@@ -34,10 +35,19 @@ public class BoilingFood : MonoBehaviour
         if (collision.gameObject.CompareTag("Pasta"))
         {
             cookTimer.SetActive(true);
+            collisionObject.GetComponent<XRGrabInteractable>().enabled = false;
             newPrefab = pastaCookedPrefab;
             Begin(Duration, greenFill);
         }
 
+    }
+
+    void OnCollisionExit(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("ReadyPasta") && overcookTimer.activeSelf)
+        {
+            overcookTimer.SetActive(false);
+        }
     }
 
     private void Begin(int Second, Image uiFill)
@@ -55,16 +65,17 @@ public class BoilingFood : MonoBehaviour
             Debug.Log("timer -1");
             yield return new WaitForSeconds(0.2f);
         }
-        OnEnd();
         if(cookTimer.activeSelf)
         {
+            OnEnd();
             cookTimer.SetActive(false);
             overcookTimer.SetActive(true);
             newPrefab = pastaOvercookedPrefab;
             Begin(Duration, redFill);
         }
-        else 
+        else if(overcookTimer.activeSelf)
         {
+            OnEnd();
             overcookTimer.SetActive(false);
         }
         
