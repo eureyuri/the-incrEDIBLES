@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4497074, g: 0.49977583, b: 0.5756327, a: 1}
+  m_IndirectSpecularColor: {r: 0.44970727, g: 0.4997756, b: 0.57563245, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1287,11 +1287,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c415f8de854aa6418bc2ecbda436f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cookTimer: {fileID: 408628097}
+  redFill: {fileID: 522918651}
   greenFill: {fileID: 873803066}
   overcookTimer: {fileID: 615372207}
-  redFill: {fileID: 522918651}
-  Duration: 10
+  cookTimer: {fileID: 408628097}
   steakPrefab: {fileID: 463930438}
   steakOvercookedPrefab: {fileID: 1455914188938112, guid: dfca154787e1ae143bb61db3e936f56c, type: 3}
 --- !u!65 &106964084
@@ -7476,11 +7475,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6528104dd2b277b49a88b12aea92ecb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cookTimer: {fileID: 388681508}
+  redFill: {fileID: 898340242}
   greenFill: {fileID: 1264659469}
   overcookTimer: {fileID: 1158773090}
-  redFill: {fileID: 898340242}
-  Duration: 1000
+  cookTimer: {fileID: 388681508}
   pastaCookedPrefab: {fileID: 4025196634869543344, guid: 939a18fd178df4b48863660a407e6bf1, type: 3}
   pastaOvercookedPrefab: {fileID: 5340909977491964161, guid: 046fce9b8634a4041bc66973b9b6a944, type: 3}
 --- !u!1 &463930438 stripped
@@ -11095,14 +11093,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684494582}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 1.578}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 3.1, y: 0.5, z: 1.578}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1833444741}
   m_Father: {fileID: 0}
   m_RootOrder: 32
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &684494585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11894,11 +11892,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c415f8de854aa6418bc2ecbda436f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cookTimer: {fileID: 1847068887}
+  redFill: {fileID: 720569556}
   greenFill: {fileID: 315404941}
   overcookTimer: {fileID: 1008389556}
-  redFill: {fileID: 720569556}
-  Duration: 10
+  cookTimer: {fileID: 1847068887}
   steakPrefab: {fileID: 463930438}
   steakOvercookedPrefab: {fileID: 1455914188938112, guid: dfca154787e1ae143bb61db3e936f56c, type: 3}
 --- !u!65 &746774660
@@ -26469,11 +26466,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6528104dd2b277b49a88b12aea92ecb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cookTimer: {fileID: 901957149}
+  redFill: {fileID: 551003384}
   greenFill: {fileID: 1286744947}
   overcookTimer: {fileID: 1456666578}
-  redFill: {fileID: 551003384}
-  Duration: 1000
+  cookTimer: {fileID: 901957149}
   pastaCookedPrefab: {fileID: 4025196634869543344, guid: 939a18fd178df4b48863660a407e6bf1, type: 3}
   pastaOvercookedPrefab: {fileID: 5340909977491964161, guid: 046fce9b8634a4041bc66973b9b6a944, type: 3}
 --- !u!1 &1640231196
@@ -34727,11 +34723,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c415f8de854aa6418bc2ecbda436f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cookTimer: {fileID: 1563820660}
+  redFill: {fileID: 374701556}
   greenFill: {fileID: 1861587301}
   overcookTimer: {fileID: 599892031}
-  redFill: {fileID: 374701556}
-  Duration: 10
+  cookTimer: {fileID: 1563820660}
   steakPrefab: {fileID: 463930438}
   steakOvercookedPrefab: {fileID: 1455914188938112, guid: dfca154787e1ae143bb61db3e936f56c, type: 3}
 --- !u!1 &1140323239966090991
@@ -37329,11 +37324,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6528104dd2b277b49a88b12aea92ecb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cookTimer: {fileID: 1224879086}
+  redFill: {fileID: 250866340}
   greenFill: {fileID: 923746508}
   overcookTimer: {fileID: 1906102404}
-  redFill: {fileID: 250866340}
-  Duration: 6000
+  cookTimer: {fileID: 1224879086}
   pastaCookedPrefab: {fileID: 4025196634869543344, guid: 939a18fd178df4b48863660a407e6bf1, type: 3}
   pastaOvercookedPrefab: {fileID: 5340909977491964161, guid: 046fce9b8634a4041bc66973b9b6a944, type: 3}
 --- !u!65 &5035414732372413793
@@ -37420,6 +37414,10 @@ PrefabInstance:
     - target: {fileID: 5268293710728416452, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
       propertyPath: m_Name
       value: fryingPan_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268293710728416454, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
+      propertyPath: Duration
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5268293710728416454, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
       propertyPath: steakPrefab

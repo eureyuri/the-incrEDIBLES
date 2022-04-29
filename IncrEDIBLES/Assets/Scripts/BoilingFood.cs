@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class BoilingFood : MonoBehaviour
 {
-    public GameObject cookTimer;
+    [SerializeField] public Image redFill;
     [SerializeField] public Image greenFill;
     public GameObject overcookTimer;
-    [SerializeField] public Image redFill;
-    public int Duration = 1000;
+    public GameObject cookTimer;
+    private int Duration = 90;
     private int remainingDuration;
     private Vector3 position;
     private Quaternion rotation;
