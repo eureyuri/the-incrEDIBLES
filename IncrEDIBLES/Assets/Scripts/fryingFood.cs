@@ -18,6 +18,8 @@ public class fryingFood : MonoBehaviour
     private GameObject newPrefab;
     public GameObject steakPrefab;
     public GameObject steakOvercookedPrefab;
+    public GameObject cookedTomatoPrefab;
+    public GameObject overCookedTomatoPrefab;
 
     void Start()
     {
@@ -31,21 +33,45 @@ public class fryingFood : MonoBehaviour
         collisionObject = collision.gameObject;
         position = collisionObject.transform.position;
         rotation = collisionObject.transform.rotation;
-
         if (collision.gameObject.CompareTag("Steak"))
         {
-            Debug.Log("Steak put in frying pan");
+            Debug.Log("Steak in frying pan");
             cookTimer.SetActive(true);
             collisionObject.GetComponent<XRGrabInteractable>().enabled = false;
             newPrefab = steakPrefab;
             Begin(Duration, greenFill);
         }
+        else if (collision.gameObject.CompareTag("CutTomato"))
+        {
+            Debug.Log("Tomato in frying pan");
+            cookTimer.SetActive(true);
+            collisionObject.GetComponent<XRGrabInteractable>().enabled = false;
+            newPrefab = cookedTomatoPrefab;
+            Begin(Duration, greenFill);
+        }
+        /*
+        if (collision.gameObject.CompareTag("Steak") || collision.gameObject.CompareTag("CutTomato"))
+        {
+            Debug.Log("Food in frying pan");
+            cookTimer.SetActive(true);
+            collisionObject.GetComponent<XRGrabInteractable>().enabled = false;
+            if (collision.gameObject.CompareTag("Steak"))
+            {
+                newPrefab = steakPrefab;
+            }
+            else if (collision.gameObject.CompareTag("CutTomato"))
+            {
+                newPrefab = cookedTomatoPrefab;
+            }
+            Begin(Duration, greenFill);
+        }
+        */
 
     }
 
      void OnCollisionExit(Collision collision)
     {
-        if(collision.gameObject.CompareTag("ReadyMeat") && overcookTimer.activeSelf)
+        if((collision.gameObject.CompareTag("ReadyMeat") || collision.gameObject.CompareTag("ReadyTomato")) && overcookTimer.activeSelf)
         {
             overcookTimer.SetActive(false);
         }
@@ -66,18 +92,26 @@ public class fryingFood : MonoBehaviour
             Debug.Log("timer -1");
             yield return new WaitForSeconds(0.2f);
         }
-        if(cookTimer.activeSelf)
+        if(overcookTimer.activeSelf)
+        {
+            overcookTimer.SetActive(false);
+            OnEnd();
+        }
+        else if(newPrefab.CompareTag("ReadyTomato"))
         {
             OnEnd();
+            newPrefab = overCookedTomatoPrefab;
             cookTimer.SetActive(false);
-            overcookTimer.SetActive(true);
-            newPrefab = steakOvercookedPrefab;
+            overcookTimer.SetActive(true);  
             Begin(Duration, redFill);
         }
-        else if(overcookTimer.activeSelf)
+        else if(newPrefab.CompareTag("ReadyMeat"))
         {
             OnEnd();
-            overcookTimer.SetActive(false);
+            newPrefab = steakOvercookedPrefab;
+            cookTimer.SetActive(false);
+            overcookTimer.SetActive(true);  
+            Begin(Duration, redFill);
         }
         
     }
