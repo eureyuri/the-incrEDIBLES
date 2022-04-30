@@ -18,6 +18,10 @@ TagManager:
   - ReadyFish
   - ReadyMeat
   - ReadyMushroom
+  - OverCooked
+  - CutTomato
+  - CutMushroom
+  - Fish
   layers:
   - Default
   - TransparentFX
