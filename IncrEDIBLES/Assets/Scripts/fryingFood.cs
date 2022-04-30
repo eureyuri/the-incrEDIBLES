@@ -20,6 +20,10 @@ public class fryingFood : MonoBehaviour
     public GameObject steakOvercookedPrefab;
     public GameObject cookedTomatoPrefab;
     public GameObject overCookedTomatoPrefab;
+    public GameObject cookedFishPrefab;
+    public GameObject overCookedFishPrefab;
+    public GameObject cookedMushroomPrefab;
+    public GameObject overCookedMushroomPrefab;
 
     void Start()
     {
@@ -33,7 +37,7 @@ public class fryingFood : MonoBehaviour
         collisionObject = collision.gameObject;
         position = collisionObject.transform.position;
         rotation = collisionObject.transform.rotation;
-        if (collision.gameObject.CompareTag("Steak") || collision.gameObject.CompareTag("CutTomato"))
+        if (collision.gameObject.CompareTag("Steak") || collision.gameObject.CompareTag("CutTomato") || collision.gameObject.CompareTag("Fish") || collision.gameObject.CompareTag("CutMushroom"))
         {
             Debug.Log("Food in frying pan");
             cookTimer.SetActive(true);
@@ -46,13 +50,20 @@ public class fryingFood : MonoBehaviour
             {
                 Begin(Duration, greenFill, "tomato");
             }
-            
+            else if(collision.gameObject.CompareTag("Fish"))
+            {
+                Begin(Duration, greenFill, "fish");
+            }
+            else if(collision.gameObject.CompareTag("CutMushroom"))
+            {
+                Begin(Duration, greenFill, "mushroom");
+            }
         }
     }
 
      void OnCollisionExit(Collision collision)
     {
-        if((collision.gameObject.CompareTag("ReadyMeat") || collision.gameObject.CompareTag("ReadyTomato")) && overcookTimer.activeSelf)
+        if((collision.gameObject.CompareTag("ReadyMeat") || collision.gameObject.CompareTag("ReadyTomato") || collision.gameObject.CompareTag("ReadyFish") || collision.gameObject.CompareTag("ReadyMushroom")) && overcookTimer.activeSelf)
         {
             Debug.Log("Food taken out from frying pan");
             overcookTimer.SetActive(false);
@@ -73,7 +84,7 @@ public class fryingFood : MonoBehaviour
             remainingDuration--;
             Debug.Log("timer -1");
             yield return new WaitForSeconds(0.2f);
-            if(remainingDuration==0)
+            if(remainingDuration==0 && (overcookTimer.activeSelf || cookTimer.activeSelf))
             {
                 Destroy(collisionObject);
                 yield return new WaitForSeconds(0.2f);
@@ -96,7 +107,6 @@ public class fryingFood : MonoBehaviour
             }
             else if(overcookTimer.activeSelf)
             {
-                Debug.Log("inside overcooked steak");
                 overcookTimer.SetActive(false);
                 collisionObject = Instantiate(steakOvercookedPrefab, position, rotation);
                 Debug.Log("overcooked steak created");
@@ -115,6 +125,36 @@ public class fryingFood : MonoBehaviour
             {
                 overcookTimer.SetActive(false);
                 collisionObject = Instantiate(overCookedTomatoPrefab, position, rotation);
+            }
+        }
+        else if (food.Equals("fish"))
+        {
+            if(cookTimer.activeSelf)
+            {
+                collisionObject = Instantiate(cookedFishPrefab, position, rotation);
+                cookTimer.SetActive(false);
+                overcookTimer.SetActive(true);  
+                Begin(Duration, redFill, food);
+            }
+            else if(overcookTimer.activeSelf)
+            {
+                overcookTimer.SetActive(false);
+                collisionObject = Instantiate(overCookedFishPrefab, position, rotation);
+            }
+        }
+        else if (food.Equals("mushroom"))
+        {
+            if(cookTimer.activeSelf)
+            {
+                collisionObject = Instantiate(cookedMushroomPrefab, position, rotation);
+                cookTimer.SetActive(false);
+                overcookTimer.SetActive(true);  
+                Begin(Duration, redFill, food);
+            }
+            else if(overcookTimer.activeSelf)
+            {
+                overcookTimer.SetActive(false);
+                collisionObject = Instantiate(overCookedMushroomPrefab, position, rotation);
             }
         }
         else{
