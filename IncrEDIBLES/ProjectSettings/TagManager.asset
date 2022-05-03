@@ -22,6 +22,8 @@ TagManager:
   - CutTomato
   - CutMushroom
   - Fish
+  - knife2
+  - Floor
   layers:
   - Default
   - TransparentFX
