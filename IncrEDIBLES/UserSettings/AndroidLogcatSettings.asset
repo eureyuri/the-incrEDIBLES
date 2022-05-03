@@ -1,19 +1,13 @@
 {
-    "m_SelectedDeviceId": "1WMHHB64102027",
+    "m_SelectedDeviceId": "1WMHHB61U62025",
     "m_SelectedPackage": {
-        "deviceId": "1WMHHB64102027",
+        "deviceId": "1WMHHB61U62025",
         "name": "com.DefaultCompany.IncrEDIBLES",
-        "processId": 16667,
+        "processId": 4108,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "1WMHHB61U62025",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 6454,
-            "exited": true
-        },
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
@@ -42,6 +36,12 @@
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 15758,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 4108,
             "exited": false
         },
         {
@@ -215,7 +215,7 @@
         "MemoryGroup": 2,
         "Behavior": 0
     },
-    "m_Filter": "Combine",
+    "m_Filter": "CombineFood",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }

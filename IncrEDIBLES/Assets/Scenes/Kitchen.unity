@@ -822,7 +822,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2171,17 +2171,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 292237ffd3dc1444c828be3c90e1d862, type: 3}
---- !u!114 &165475080 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8904185606101043199, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-  m_PrefabInstance: {fileID: 8904185606206158071}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &171057599
 GameObject:
   m_ObjectHideFlags: 0
@@ -2965,7 +2954,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 686508543496338057, guid: 3773d0ae256dc594ea12defa93a67c26, type: 3}
       propertyPath: m_LocalScale.x
@@ -8345,7 +8334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366116349010733834, guid: 939a18fd178df4b48863660a407e6bf1, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4366116349010733834, guid: 939a18fd178df4b48863660a407e6bf1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12856,6 +12845,138 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &831593038
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.551
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheesePasta
+      value: 
+      objectReference: {fileID: 8038064032339951548, guid: 47650a259e04747038ffa6e856a7b1e9, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoPasta
+      value: 
+      objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseFishPasta
+      value: 
+      objectReference: {fileID: 489800256327074327, guid: c4ac1aff9a3e742739715e7008b3707f, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMeatPasta
+      value: 
+      objectReference: {fileID: 3919027753351007473, guid: 11d795d9dbefd4183888f216951edb08, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoFishPasta
+      value: 
+      objectReference: {fileID: 5519069446295252427, guid: 4f87dfcb89cc6495b85fb737529e4344, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMeatPasta
+      value: 
+      objectReference: {fileID: 1265030744316602794, guid: 426ef3b7b8abb4ecba59dfe6d4aa7c00, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoCheesePasta
+      value: 
+      objectReference: {fileID: 1875048969802151784, guid: 21fab2eae5e4d453da4aeb8c5f0be1ab, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMushroomPasta
+      value: 
+      objectReference: {fileID: 6726034482890886549, guid: 78016531b204e454d9113ea63147671b, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMushroomPasta
+      value: 
+      objectReference: {fileID: 1798436716870151419, guid: 359536e0c4977454180de6ca37bb7ac6, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMushroomFishPasta
+      value: 
+      objectReference: {fileID: 3618761341341312470, guid: 987fe42056cf34fbabb6767ce830370a, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMushroomMeatPasta
+      value: 
+      objectReference: {fileID: 4027959726819883199, guid: d4e86635117db4cd99b873fd2a8c6854, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMushroomFishPasta
+      value: 
+      objectReference: {fileID: 2328083268565886546, guid: e90c10811e98047f5847984da7244bc1, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMushroomMeatPasta
+      value: 
+      objectReference: {fileID: 1217288561795896314, guid: 35fee5cb9b84d4d539e5b268558e0ae8, type: 3}
+    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 1417828893}
+    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 831593039}
+    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: initFood
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606101074257, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_Name
+      value: Plate (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+--- !u!114 &831593039 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8904185606101043199, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+  m_PrefabInstance: {fileID: 831593038}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &834487980
 GameObject:
   m_ObjectHideFlags: 0
@@ -13701,7 +13822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.663
+      value: -2.602
       objectReference: {fileID: 0}
     - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13740,9 +13861,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseFishPasta
+      value: 
+      objectReference: {fileID: 489800256327074327, guid: c4ac1aff9a3e742739715e7008b3707f, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMeatPasta
       value: 
       objectReference: {fileID: 3919027753351007473, guid: 11d795d9dbefd4183888f216951edb08, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoFishPasta
+      value: 
+      objectReference: {fileID: 5519069446295252427, guid: 4f87dfcb89cc6495b85fb737529e4344, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMeatPasta
       value: 
@@ -13751,6 +13880,30 @@ PrefabInstance:
       propertyPath: tomatoCheesePasta
       value: 
       objectReference: {fileID: 1875048969802151784, guid: 21fab2eae5e4d453da4aeb8c5f0be1ab, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMushroomPasta
+      value: 
+      objectReference: {fileID: 6726034482890886549, guid: 78016531b204e454d9113ea63147671b, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMushroomPasta
+      value: 
+      objectReference: {fileID: 1798436716870151419, guid: 359536e0c4977454180de6ca37bb7ac6, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMushroomFishPasta
+      value: 
+      objectReference: {fileID: 3618761341341312470, guid: 987fe42056cf34fbabb6767ce830370a, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMushroomMeatPasta
+      value: 
+      objectReference: {fileID: 4027959726819883199, guid: d4e86635117db4cd99b873fd2a8c6854, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMushroomFishPasta
+      value: 
+      objectReference: {fileID: 2328083268565886546, guid: e90c10811e98047f5847984da7244bc1, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMushroomMeatPasta
+      value: 
+      objectReference: {fileID: 1217288561795896314, guid: 35fee5cb9b84d4d539e5b268558e0ae8, type: 3}
     - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -13891,6 +14044,138 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &903470913
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.506
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheesePasta
+      value: 
+      objectReference: {fileID: 8038064032339951548, guid: 47650a259e04747038ffa6e856a7b1e9, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoPasta
+      value: 
+      objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseFishPasta
+      value: 
+      objectReference: {fileID: 489800256327074327, guid: c4ac1aff9a3e742739715e7008b3707f, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMeatPasta
+      value: 
+      objectReference: {fileID: 3919027753351007473, guid: 11d795d9dbefd4183888f216951edb08, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoFishPasta
+      value: 
+      objectReference: {fileID: 5519069446295252427, guid: 4f87dfcb89cc6495b85fb737529e4344, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMeatPasta
+      value: 
+      objectReference: {fileID: 1265030744316602794, guid: 426ef3b7b8abb4ecba59dfe6d4aa7c00, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoCheesePasta
+      value: 
+      objectReference: {fileID: 1875048969802151784, guid: 21fab2eae5e4d453da4aeb8c5f0be1ab, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMushroomPasta
+      value: 
+      objectReference: {fileID: 6726034482890886549, guid: 78016531b204e454d9113ea63147671b, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMushroomPasta
+      value: 
+      objectReference: {fileID: 1798436716870151419, guid: 359536e0c4977454180de6ca37bb7ac6, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMushroomFishPasta
+      value: 
+      objectReference: {fileID: 3618761341341312470, guid: 987fe42056cf34fbabb6767ce830370a, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: cheeseMushroomMeatPasta
+      value: 
+      objectReference: {fileID: 4027959726819883199, guid: d4e86635117db4cd99b873fd2a8c6854, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMushroomFishPasta
+      value: 
+      objectReference: {fileID: 2328083268565886546, guid: e90c10811e98047f5847984da7244bc1, type: 3}
+    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: tomatoMushroomMeatPasta
+      value: 
+      objectReference: {fileID: 1217288561795896314, guid: 35fee5cb9b84d4d539e5b268558e0ae8, type: 3}
+    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 1417828893}
+    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 903470914}
+    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: initFood
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904185606101074257, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+      propertyPath: m_Name
+      value: Plate (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+--- !u!114 &903470914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8904185606101043199, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
+  m_PrefabInstance: {fileID: 903470913}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &906645195
 GameObject:
   m_ObjectHideFlags: 0
@@ -18218,7 +18503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 554062696703350097, guid: 90b342083692bf6419330d7a34b65777, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 554062696703350097, guid: 90b342083692bf6419330d7a34b65777, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26522,7 +26807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 554062696703350097, guid: 90b342083692bf6419330d7a34b65777, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 554062696703350097, guid: 90b342083692bf6419330d7a34b65777, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28022,7 +28307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4723223215228824, guid: 1cc7cbbec1f220841a9ed6c3046dddfb, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4723223215228824, guid: 1cc7cbbec1f220841a9ed6c3046dddfb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29017,7 +29302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 554062696703350097, guid: 90b342083692bf6419330d7a34b65777, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 554062696703350097, guid: 90b342083692bf6419330d7a34b65777, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30499,106 +30784,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd29563253c2a43709a4113538cf6627, type: 3}
---- !u!1001 &1832585401
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.569
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: cheesePasta
-      value: 
-      objectReference: {fileID: 8038064032339951548, guid: 47650a259e04747038ffa6e856a7b1e9, type: 3}
-    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: tomatoPasta
-      value: 
-      objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
-    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: cheeseMeatPasta
-      value: 
-      objectReference: {fileID: 3919027753351007473, guid: 11d795d9dbefd4183888f216951edb08, type: 3}
-    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: tomatoMeatPasta
-      value: 
-      objectReference: {fileID: 1265030744316602794, guid: 426ef3b7b8abb4ecba59dfe6d4aa7c00, type: 3}
-    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: tomatoCheesePasta
-      value: 
-      objectReference: {fileID: 1875048969802151784, guid: 21fab2eae5e4d453da4aeb8c5f0be1ab, type: 3}
-    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 1417828893}
-    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1832585402}
-    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: initFood
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606101074257, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_Name
-      value: Plate (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
---- !u!114 &1832585402 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8904185606101043199, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-  m_PrefabInstance: {fileID: 1832585401}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1833444740
 GameObject:
   m_ObjectHideFlags: 0
@@ -38910,7 +39095,7 @@ PrefabInstance:
       objectReference: {fileID: 1417828893}
     - target: {fileID: 6339442092533159077, guid: a8fefa6ca6b11b74e9e6e8ea8787905b, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6339442092533159077, guid: a8fefa6ca6b11b74e9e6e8ea8787905b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41202,95 +41387,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &8904185606206158071
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606100917617, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: cheesePasta
-      value: 
-      objectReference: {fileID: 8038064032339951548, guid: 47650a259e04747038ffa6e856a7b1e9, type: 3}
-    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: tomatoPasta
-      value: 
-      objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
-    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: cheeseMeatPasta
-      value: 
-      objectReference: {fileID: 3919027753351007473, guid: 11d795d9dbefd4183888f216951edb08, type: 3}
-    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: tomatoMeatPasta
-      value: 
-      objectReference: {fileID: 1265030744316602794, guid: 426ef3b7b8abb4ecba59dfe6d4aa7c00, type: 3}
-    - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: tomatoCheesePasta
-      value: 
-      objectReference: {fileID: 1875048969802151784, guid: 21fab2eae5e4d453da4aeb8c5f0be1ab, type: 3}
-    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 1417828893}
-    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 165475080}
-    - target: {fileID: 8904185606101043197, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: initFood
-      objectReference: {fileID: 0}
-    - target: {fileID: 8904185606101074257, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
-      propertyPath: m_Name
-      value: Plate (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
 --- !u!33 &9062053943215601498
 MeshFilter:
   m_ObjectHideFlags: 0

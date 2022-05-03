@@ -50,12 +50,11 @@ public class CombineFood : MonoBehaviour
     }
 
     private bool IsValidFood(GameObject collided) {
-        return (collided.CompareTag("ReadyPasta") || collided.CompareTag("ReadyTomato") || collided.CompareTag("ReadyCheese") || collided.CompareTag("ReadyMeat"));
+        return (collided.CompareTag("ReadyPasta") || collided.CompareTag("ReadyTomato") || collided.CompareTag("ReadyCheese") || collided.CompareTag("ReadyMeat") || collided.CompareTag("ReadyMushroom") || collided.CompareTag("ReadyFish"));
     }
 
     private void AddToPlate(GameObject collided) {
         if (collided.CompareTag("ReadyPasta") && !foodOnPlate.Contains("pasta")) {
-            Debug.Log("CombineFood: added pasta");
             foodOnPlate.Add("pasta");
         } else if (collided.CompareTag("ReadyTomato") && !foodOnPlate.Contains("tomato")) {
             foodOnPlate.Add("tomato");
@@ -64,7 +63,6 @@ public class CombineFood : MonoBehaviour
         } else if (collided.CompareTag("ReadyMushroom") && !foodOnPlate.Contains("mushroom")) {
             foodOnPlate.Add("mushroom");
         } else if (collided.CompareTag("ReadyCheese") && !foodOnPlate.Contains("cheese")) {
-            Debug.Log("CombineFood: added cheese");
             foodOnPlate.Add("cheese");
         } else if (collided.CompareTag("ReadyMeat") && !foodOnPlate.Contains("meat")) {
             foodOnPlate.Add("meat");
