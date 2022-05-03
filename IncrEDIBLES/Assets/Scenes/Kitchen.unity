@@ -15708,6 +15708,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3773d0ae256dc594ea12defa93a67c26, type: 3}
+--- !u!1 &1006916268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4602025962161850522, guid: 3773d0ae256dc594ea12defa93a67c26, type: 3}
+  m_PrefabInstance: {fileID: 1006916267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1006916269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006916268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4514e61755d35f4cb5266df150f8ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1008389556
 GameObject:
   m_ObjectHideFlags: 0
@@ -25180,6 +25197,10 @@ PrefabInstance:
     - target: {fileID: 7718145873712155628, guid: 51d0188f918d8534992f463113fbd238, type: 3}
       propertyPath: m_Name
       value: CutMushroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7770131642084768163, guid: 51d0188f918d8534992f463113fbd238, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8884215902394822988, guid: 51d0188f918d8534992f463113fbd238, type: 3}
       propertyPath: m_RootOrder
