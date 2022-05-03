@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class trashFood : MonoBehaviour
+public class TurnInDish : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
     private int score;
@@ -13,17 +13,22 @@ public class trashFood : MonoBehaviour
     {
         score = int.Parse(scoreText.text);
         Destroy(collision.gameObject);
-        if (collision.gameObject.CompareTag("OverCooked"))
+        score += 10;
+        /*if (collision.gameObject.CompareTag("OverCooked"))
         {
-            score -= 2;
+            score -= 1;
         }
         else 
         {
-            score -= 4;
-        }
+            score += 10;
+        }*/
         if(score<0)
         {
             scoreText.color = new Color(255, 0, 0, 255);
+        }
+        else
+        {
+            scoreText.color = new Color(255, 255, 255, 255);
         }
         scoreText.text = score.ToString();
     }
