@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 7790801220231367249}
   m_Layer: 0
   m_Name: OvercookedTomato
-  m_TagString: ReadyTomato
+  m_TagString: OverCooked
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
