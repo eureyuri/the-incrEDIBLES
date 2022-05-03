@@ -8,9 +8,17 @@ public class CombineFood : MonoBehaviour
     private List<string> foodOnPlate;
     public GameObject tomatoPasta;
     public GameObject tomatoCheesePasta;
+    public GameObject tomatoMushroomPasta;
     public GameObject tomatoMeatPasta;
+    public GameObject tomatoFishPasta;
+    public GameObject tomatoMushroomMeatPasta;
+    public GameObject tomatoMushroomFishPasta;
     public GameObject cheesePasta;
+    public GameObject cheeseMushroomPasta;
     public GameObject cheeseMeatPasta;
+    public GameObject cheeseFishPasta;
+    public GameObject cheeseMushroomFishPasta;
+    public GameObject cheeseMeatFishPasta;
     public GameObject intermediateDish;
 
     void Start() {
