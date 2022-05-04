@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44970763, g: 0.49977607, b: 0.5756336, a: 1}
+  m_IndirectSpecularColor: {r: 0.44970727, g: 0.4997756, b: 0.57563245, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1297,8 +1297,8 @@ MonoBehaviour:
   overCookedTomatoPrefab: {fileID: 4495310852216646084, guid: b50ff6711cc4dcc459ea37bcbe4ee1aa, type: 3}
   cookedFishPrefab: {fileID: 550772123607446667, guid: 90b342083692bf6419330d7a34b65777, type: 3}
   overCookedFishPrefab: {fileID: 3136286117289503521, guid: e6dc495cde13cac4b860f6385aaaadd8, type: 3}
-  cookedMushroomPrefab: {fileID: 7082040336037310595, guid: 0f81d3e9b64a9634aafacde852d38ce1, type: 3}
-  overCookedMushroomPrefab: {fileID: 5162386613688824869, guid: a42013737a0648c41a692ea7264bbe32, type: 3}
+  cookedMushroomPrefab: {fileID: 3561668969969318022, guid: bd29563253c2a43709a4113538cf6627, type: 3}
+  overCookedMushroomPrefab: {fileID: 1547512192390741876, guid: 0e6218e2ba9a98249a4e23215141736b, type: 3}
 --- !u!65 &106964084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11818,8 +11818,8 @@ MonoBehaviour:
   overCookedTomatoPrefab: {fileID: 4495310852216646084, guid: b50ff6711cc4dcc459ea37bcbe4ee1aa, type: 3}
   cookedFishPrefab: {fileID: 550772123607446667, guid: 90b342083692bf6419330d7a34b65777, type: 3}
   overCookedFishPrefab: {fileID: 3136286117289503521, guid: e6dc495cde13cac4b860f6385aaaadd8, type: 3}
-  cookedMushroomPrefab: {fileID: 7082040336037310595, guid: 0f81d3e9b64a9634aafacde852d38ce1, type: 3}
-  overCookedMushroomPrefab: {fileID: 5162386613688824869, guid: a42013737a0648c41a692ea7264bbe32, type: 3}
+  cookedMushroomPrefab: {fileID: 3561668969969318022, guid: bd29563253c2a43709a4113538cf6627, type: 3}
+  overCookedMushroomPrefab: {fileID: 1547512192390741876, guid: 0e6218e2ba9a98249a4e23215141736b, type: 3}
 --- !u!65 &746774660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36089,8 +36089,8 @@ MonoBehaviour:
   overCookedTomatoPrefab: {fileID: 4495310852216646084, guid: b50ff6711cc4dcc459ea37bcbe4ee1aa, type: 3}
   cookedFishPrefab: {fileID: 550772123607446667, guid: 90b342083692bf6419330d7a34b65777, type: 3}
   overCookedFishPrefab: {fileID: 3136286117289503521, guid: e6dc495cde13cac4b860f6385aaaadd8, type: 3}
-  cookedMushroomPrefab: {fileID: 7082040336037310595, guid: 0f81d3e9b64a9634aafacde852d38ce1, type: 3}
-  overCookedMushroomPrefab: {fileID: 5162386613688824869, guid: a42013737a0648c41a692ea7264bbe32, type: 3}
+  cookedMushroomPrefab: {fileID: 3561668969969318022, guid: bd29563253c2a43709a4113538cf6627, type: 3}
+  overCookedMushroomPrefab: {fileID: 1547512192390741876, guid: 0e6218e2ba9a98249a4e23215141736b, type: 3}
 --- !u!1 &1140323239966090991
 GameObject:
   m_ObjectHideFlags: 0
