@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 5796275123256914093}
   - component: {fileID: 5796275123256914092}
   - component: {fileID: 5796275123256914083}
-  - component: {fileID: 5796275123256914082}
+  - component: {fileID: 8864814491231108202}
+  - component: {fileID: 5380673829508101780}
   m_Layer: 0
   m_Name: Pasta
   m_TagString: Pasta
@@ -126,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5796275123256914082
+--- !u!114 &8864814491231108202
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,7 +136,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6679375162680888863}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -253,3 +254,15 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &5380673829508101780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6679375162680888863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

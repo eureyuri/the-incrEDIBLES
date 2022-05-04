@@ -41,7 +41,7 @@ public class fryingFood : MonoBehaviour
         {
             Debug.Log("Food in frying pan");
             cookTimer.SetActive(true);
-            collisionObject.GetComponent<XRGrabInteractable>().enabled = false;
+            collisionObject.GetComponent<OffsetGrabInteractable>().enabled = false;
             if (collision.gameObject.CompareTag("Steak"))
             {
                 Begin(Duration, greenFill, "steak");
@@ -86,12 +86,14 @@ public class fryingFood : MonoBehaviour
             yield return new WaitForSeconds(0.2f);
             if(remainingDuration==0 && !overcookTimer.activeSelf && cookTimer.activeSelf)
             {
+                Debug.Log("frying destroy");
                 Destroy(collisionObject);
                 yield return new WaitForSeconds(0.2f);
                 OnCookedEnd(food);
             }
             else if(remainingDuration==0 && overcookTimer.activeSelf && !cookTimer.activeSelf)
             {
+                Debug.Log("frying destroy2");
                 Destroy(collisionObject);
                 yield return new WaitForSeconds(0.2f);
                 OnOvercookedEnd(food);

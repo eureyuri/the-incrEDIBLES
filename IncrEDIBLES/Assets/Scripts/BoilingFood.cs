@@ -35,7 +35,7 @@ public class BoilingFood : MonoBehaviour
         if (collision.gameObject.CompareTag("Pasta"))
         {
             cookTimer.SetActive(true);
-            collisionObject.GetComponent<XRGrabInteractable>().enabled = false;
+            collisionObject.GetComponent<OffsetGrabInteractable>().enabled = false;
             newPrefab = pastaCookedPrefab;
             Begin(Duration, greenFill);
         }

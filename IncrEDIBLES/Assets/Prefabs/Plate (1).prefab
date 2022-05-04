@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8904185606103342993}
   - component: {fileID: 8904185606101043196}
   - component: {fileID: 8904185606101043198}
-  - component: {fileID: 8904185606101043199}
-  - component: {fileID: 8904185606101043197}
   - component: {fileID: 8904185606101043195}
+  - component: {fileID: 998342318568856333}
+  - component: {fileID: 5704356147531882904}
+  - component: {fileID: 5006188304222728544}
   m_Layer: 0
   m_Name: Plate (1)
   m_TagString: Untagged
@@ -115,7 +116,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.52, y: 0.03, z: 0.52}
   m_Center: {x: 0, y: 0.015, z: 0}
---- !u!114 &8904185606101043199
+--- !u!114 &8904185606101043195
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,10 +125,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 8904185606101074257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 60bc01f5609f54569833be89b156b735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8904185606101043197
+  tomatoPasta: {fileID: 0}
+  tomatoCheesePasta: {fileID: 0}
+  tomatoMushroomPasta: {fileID: 0}
+  tomatoMeatPasta: {fileID: 0}
+  tomatoFishPasta: {fileID: 0}
+  tomatoMushroomMeatPasta: {fileID: 0}
+  tomatoMushroomFishPasta: {fileID: 0}
+  cheesePasta: {fileID: 0}
+  cheeseMushroomPasta: {fileID: 0}
+  cheeseMeatPasta: {fileID: 0}
+  cheeseFishPasta: {fileID: 0}
+  cheeseMushroomFishPasta: {fileID: 0}
+  cheeseMushroomMeatPasta: {fileID: 0}
+  intermediateDish: {fileID: 0}
+--- !u!114 &998342318568856333
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,7 +151,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 8904185606101074257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 86a5db73dc0dfd3479ee8cf80b23ff6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5704356147531882904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8904185606101074257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -171,19 +198,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8904185606101043199}
-        m_TargetAssemblyTypeName: NewFood, Assembly-CSharp
-        m_MethodName: initFood
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -254,7 +269,7 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &8904185606101043195
+--- !u!114 &5006188304222728544
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -263,7 +278,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8904185606101074257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60bc01f5609f54569833be89b156b735, type: 3}
+  m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tomatoPasta: {fileID: 0}

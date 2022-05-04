@@ -30,100 +30,108 @@ public class CutCollision : MonoBehaviour
     public void OnCollisionEnter(Collision collision)
     {
         GameObject collided = collision.gameObject;
-        if(collided.transform.childCount == 0)
+        Debug.Log("collision happen");
+        if(collided.CompareTag("cut"))
         {
-            if(collided.CompareTag("cut"))
+            if(collided.transform.childCount == 0)
             {
                 cut_num.enabled = true;
-                GetComponent<XRGrabInteractable>().enabled = false;
+                GetComponent<OffsetGrabInteractable>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
                 transform.parent = collided.transform;
                 transform.localPosition = new Vector3(0,0,z_axis);
                 transform.rotation = rotate;  
             }
-            else if(collided.CompareTag("cut1"))
+        }
+        else if(collided.CompareTag("cut1"))
+        {
+            if(collided.transform.childCount == 0)
             {
                 cut_num1.enabled = true;
-                GetComponent<XRGrabInteractable>().enabled = false;
+                GetComponent<OffsetGrabInteractable>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
                 transform.parent = collided.transform;
                 transform.localPosition = new Vector3(0,0,z_axis);
                 transform.rotation = rotate;
-                //transform.localPosition = new Vector3(0,0,0.0025f);
             }
-            else if(collided.CompareTag("cut2"))
+            //transform.localPosition = new Vector3(0,0,0.0025f);
+        }
+        else if(collided.CompareTag("cut2"))
+        {
+            if(collided.transform.childCount == 0)
             {
                 cut_num2.enabled = true;
-                GetComponent<XRGrabInteractable>().enabled = false;
+                GetComponent<OffsetGrabInteractable>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
                 transform.parent = collided.transform;
                 transform.localPosition = new Vector3(0,0,z_axis);
                 transform.rotation = rotate;
             }
-            else if(collided.CompareTag("knife"))
+        }
+        else if(collided.CompareTag("knife"))
+        {
+            Debug.Log("collision on first knife");
+            if(cut_num.enabled == true)
             {
-                if(cut_num.enabled == true)
+                int current = int.Parse(cut_num.text);
+                if(current == 1)
                 {
-                    int current = int.Parse(cut_num.text);
-                    if(current == 1)
-                    {
-                        cut_num.text = "3";
-                        cut_num.enabled = false;
-                        Vector3 pos = transform.position;
-                        Quaternion rot = transform.rotation;
-                        Destroy(gameObject);
-                        GameObject clone = Instantiate(cooked, pos, rot);
-                        clone.GetComponent<XRGrabInteractable>().enabled = true;
-                    }
-                    else
-                    {
-                        cut_num.text = (current - 1).ToString();
-                    }
+                    cut_num.text = "3";
+                    cut_num.enabled = false;
+                    Vector3 pos = transform.position;
+                    Quaternion rot = transform.rotation;
+                    Destroy(gameObject);
+                    GameObject clone = Instantiate(cooked, pos, rot);
+                    clone.GetComponent<OffsetGrabInteractable>().enabled = true;
+                }
+                else
+                {
+                    cut_num.text = (current - 1).ToString();
                 }
             }
-            else if(collided.CompareTag("knife1"))
+        }
+        else if(collided.CompareTag("knife1"))
+        {
+            if(cut_num1.enabled == true)
             {
-                if(cut_num1.enabled == true)
+                int current = int.Parse(cut_num1.text);
+                if(current == 1)
                 {
-                    int current = int.Parse(cut_num1.text);
-                    if(current == 1)
-                    {
-                        cut_num1.text = "3";
-                        cut_num1.enabled = false;
-                        Vector3 pos = transform.position;
-                        Quaternion rot = transform.rotation;
-                        Destroy(gameObject);
-                        GameObject clone = Instantiate(cooked, pos, rot);
-                        clone.GetComponent<XRGrabInteractable>().enabled = true;
-                    }
-                    else
-                    {
-                        cut_num1.text = (current - 1).ToString();
-                    }
+                    cut_num1.text = "3";
+                    cut_num1.enabled = false;
+                    Vector3 pos = transform.position;
+                    Quaternion rot = transform.rotation;
+                    Destroy(gameObject);
+                    GameObject clone = Instantiate(cooked, pos, rot);
+                    clone.GetComponent<OffsetGrabInteractable>().enabled = true;
+                }
+                else
+                {
+                    cut_num1.text = (current - 1).ToString();
                 }
             }
-            else if(collided.CompareTag("knife2"))
+        }
+        else if(collided.CompareTag("knife2"))
+        {
+            if(cut_num2.enabled == true)
             {
-                if(cut_num2.enabled == true)
+                int current = int.Parse(cut_num2.text);
+                if(current == 1)
                 {
-                    int current = int.Parse(cut_num2.text);
-                    if(current == 1)
-                    {
-                        cut_num2.text = "3";
-                        cut_num2.enabled = false;
-                        Vector3 pos = transform.position;
-                        Quaternion rot = transform.rotation;
-                        Destroy(gameObject);
-                        GameObject clone = Instantiate(cooked, pos, rot);
-                        clone.GetComponent<XRGrabInteractable>().enabled = true;
-                    }
-                    else
-                    {
-                        cut_num2.text = (current - 1).ToString();
-                    }
+                    cut_num2.text = "3";
+                    cut_num2.enabled = false;
+                    Vector3 pos = transform.position;
+                    Quaternion rot = transform.rotation;
+                    Destroy(gameObject);
+                    GameObject clone = Instantiate(cooked, pos, rot);
+                    clone.GetComponent<OffsetGrabInteractable>().enabled = true;
+                }
+                else
+                {
+                    cut_num2.text = (current - 1).ToString();
                 }
             }
-        } 
+        }
         
     }
 }
