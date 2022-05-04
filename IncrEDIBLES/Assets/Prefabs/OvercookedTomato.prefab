@@ -581,7 +581,8 @@ GameObject:
   - component: {fileID: 2240878314224428347}
   - component: {fileID: 2154916271686716256}
   - component: {fileID: 4411963035953641303}
-  - component: {fileID: 7790801220231367249}
+  - component: {fileID: 5464674631602959035}
+  - component: {fileID: -1851469927876496771}
   m_Layer: 0
   m_Name: OvercookedTomato
   m_TagString: OverCooked
@@ -643,7 +644,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7790801220231367249
+--- !u!114 &5464674631602959035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -652,7 +653,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4495310852216646084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -758,6 +759,18 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &-1851469927876496771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4495310852216646084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4946528365771387073
 GameObject:
   m_ObjectHideFlags: 0

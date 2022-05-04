@@ -41,7 +41,7 @@ public class CombineFood : MonoBehaviour
 
     private void AddOne(GameObject collided) {
         if (IsValidFood(collided)) {
-            collided.GetComponent<XRGrabInteractable>().enabled = false;
+            collided.GetComponent<OffsetGrabInteractable>().enabled = false;
             collided.GetComponent<Rigidbody>().isKinematic = true;
             collided.transform.parent = this.transform;
             collided.transform.localPosition = new Vector3(0, 0.1f, 0);

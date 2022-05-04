@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "1WMHHB61U62025",
+    "m_SelectedDeviceId": "1WMHHB64102027",
     "m_SelectedPackage": {
-        "deviceId": "1WMHHB61U62025",
+        "deviceId": "1WMHHB64102027",
         "name": "com.DefaultCompany.IncrEDIBLES",
-        "processId": 4108,
+        "processId": 31506,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -163,6 +163,96 @@
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 16667,
             "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 20999,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 21682,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 22320,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 22721,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 24479,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 25279,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 26252,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 26957,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 27617,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 28473,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 29199,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 29842,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 30181,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 30858,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 31506,
+            "exited": false
         }
     ],
     "m_Tags": {
@@ -215,7 +305,7 @@
         "MemoryGroup": 2,
         "Behavior": 0
     },
-    "m_Filter": "CombineFood",
+    "m_Filter": "frying",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }

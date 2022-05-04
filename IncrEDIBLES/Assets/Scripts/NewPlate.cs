@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class NewFood : MonoBehaviour
+public class NewPlate : MonoBehaviour
 {
     bool first;
     Vector3 pos;
@@ -20,8 +20,13 @@ public class NewFood : MonoBehaviour
     {
         if(first)
         {
+            Debug.Log("Create a new plate");
             GameObject clone = Instantiate(gameObject, pos, rot);
             clone.GetComponent<OffsetGrabInteractable>().enabled = true;
+            foreach (Transform child in clone.transform) 
+            {
+                GameObject.Destroy(child.gameObject);
+            }
             first = false;
         }
         GetComponent<Rigidbody>().isKinematic = false;
