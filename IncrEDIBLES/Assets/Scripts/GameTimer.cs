@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-// using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class GameTimer : MonoBehaviour
 {
     public float timeValue = 180;
     public Text timerText;
-    // public string endGame;
+    public string endGame;
 
     // Update is called once per frame
     void Update()
@@ -21,7 +21,7 @@ public class GameTimer : MonoBehaviour
         {
             timeValue = 0;
             // End the game
-            // SceneManager.LoadScene(endGame);
+            SceneManager.LoadScene(endGame);
         }
         DisplayTime(timeValue);
     }
