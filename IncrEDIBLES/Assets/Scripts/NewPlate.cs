@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class NewPlate : MonoBehaviour
 {
+    public Image arrow;
+
     bool first;
     Vector3 pos;
     Quaternion rot;
@@ -16,20 +19,31 @@ public class NewPlate : MonoBehaviour
         rot = transform.rotation;
     }
 
-    public void initFood()
+    public void ExitGrab()
     {
         if(first)
         {
             Debug.Log("Create a new plate");
             GameObject clone = Instantiate(gameObject, pos, rot);
-            clone.GetComponent<OffsetGrabInteractable>().enabled = true;
             foreach (Transform child in clone.transform) 
             {
-                GameObject.Destroy(child.gameObject);
+                if(child.CompareTag("ReadyPasta") || child.CompareTag("ReadyTomato") || child.CompareTag("ReadyCheese") || child.CompareTag("ReadyMeat") || child.CompareTag("ReadyMushroom") || child.CompareTag("ReadyFish"))
+                {
+                    Debug.Log("plate remove child");
+                    GameObject.Destroy(child.gameObject);
+                }
             }
+            clone.GetComponent<OffsetGrabInteractable>().enabled = true;
+            Debug.Log("plate offset");
             first = false;
         }
         GetComponent<Rigidbody>().isKinematic = false;
-        transform.parent = null;
+        arrow.enabled = true;
+    }
+
+    public void StartGrab()
+    {
+        GetComponent<Rigidbody>().isKinematic = true;
+        arrow.enabled = false;
     }
 }
