@@ -17,9 +17,9 @@ public class CutCollision : MonoBehaviour
     void Start()
     {
         rotate = transform.rotation;
-        if (transform.position.y > 2.0f)
+        if (transform.position.y > 1.45f)
         {
-            z_axis = 0.0025f;
+            z_axis = 0.0015f;
         }
         else
         {
