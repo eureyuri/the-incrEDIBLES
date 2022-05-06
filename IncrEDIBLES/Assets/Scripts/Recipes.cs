@@ -41,6 +41,12 @@ public class Recipes : MonoBehaviour
     private int allRecipeCount;
     Random rand = new Random();
 
+    private readonly float RECIPE_POS_0 = -25f;
+    private readonly float RECIPE_POS_1 = -13.99f;
+    private readonly float RECIPE_POS_2 = -3.1f;
+    private readonly float RECIPE_POS_3 = 7.16f;
+    private readonly float RECIPE_POS_4 = 18.5f;
+
     [System.Serializable]
     public class RecipeInfo {
         public string name;
@@ -84,44 +90,14 @@ public class Recipes : MonoBehaviour
     }
 
     public void InstantiateRecipe(RecipeInfo recipe, int index) {
-        GameObject recipeCard;
         int ingredientsLen = recipe.ingredients.Length;
-        switch (ingredientsLen) {
-            case 2: recipeCard = recipeCard2; break;
-            case 3: recipeCard = recipeCard3; break;
-            case 4: recipeCard = recipeCard4; break;
-            default: recipeCard = null; break;
-        }
 
+        GameObject recipeCard = GetRecipeCard(ingredientsLen);
         if (recipeCard == null) return;
 
-        float xPos;
-        switch (index) {
-            case 0: xPos = -25f; break;
-            case 1: xPos = -13.99f; break;
-            case 2: xPos = -3.1f; break;
-            case 3: xPos = 7.16f; break;
-            case 4: xPos = 18.5f; break;
-            default: xPos = 0; break;
-        }
+        float xPos = GetRecipePos(index);
 
-        Sprite dish;
-        switch (recipe.name) {
-            case "tomato pasta": dish = tomatoPasta; break;
-            case "tomato cheese pasta": dish = tomatoCheesePasta; break;
-            case "tomato mushroom pasta": dish = tomatoMushroomPasta; break;
-            case "tomato meat pasta": dish = tomatoMeatPasta; break;
-            case "tomato fish pasta": dish = tomatoFishPasta; break;
-            case "tomato mushroom fish pasta": dish = tomatoMushroomFishPasta; break;
-            case "tomato mushroom meat pasta": dish = tomatoMushroomMeatPasta; break;
-            case "cheese pasta": dish = cheesePasta; break;
-            case "cheese mushroom pasta": dish = cheeseMushroomPasta; break;
-            case "cheese meat pasta": dish = cheeseMeatPasta; break;
-            case "cheese fish pasta": dish = cheeseFishPasta; break;
-            case "cheese mushroom fish pasta": dish = cheeseMushroomFishPasta; break;
-            case "cheese mushroom meat pasta": dish = cheeseMushroomMeatPasta; break;
-            default: dish = null; break;
-        }
+        Sprite dish = GetDishImg(recipe.name);
         recipeCard.transform.GetChild(0).GetComponent<Image>().sprite = dish;
 
         Transform ingredientList = recipeCard.transform.GetChild(1);
@@ -129,36 +105,18 @@ public class Recipes : MonoBehaviour
         Transform ingredientInst2 = recipeCard.transform.GetChild(3);
         Sprite ingredientToAdd;
         for (int i = 0; i < ingredientsLen; i++) {
-            switch (recipe.ingredients[i]) {
-                case "pasta": ingredientToAdd = pasta; break;
-                case "fish": ingredientToAdd = fish; break;
-                case "mushroom": ingredientToAdd = mushroom; break;
-                case "tomato": ingredientToAdd = tomato; break;
-                case "cheese": ingredientToAdd = cheese; break;
-                case "meat": ingredientToAdd = meat; break;
-                default: ingredientToAdd = null; break;
-            }
+            string ingredient = recipe.ingredients[i];
+            ingredientToAdd = GetIngredientImg(ingredient);
             ingredientList.GetChild(i).GetComponent<Image>().sprite = ingredientToAdd;
 
-            string[] procedure = null;
-            for (int j = 0; j < recipes.directions.Length; j++) {
-                if (recipe.ingredients[i] == recipes.directions[j].name) {
-                    procedure = recipes.directions[j].procedure;
-                    break;
-                }
-            }
+            string[] procedure = GetProcedures(ingredient);
 
             for (int j = 0; j < procedure.Length; j++) {
-                Sprite instToAdd;
-                switch (procedure[j]) {
-                    case "boil": instToAdd = boil; break;
-                    case "cut": instToAdd = cut; break;
-                    case "saute": instToAdd = saute; break;
-                    default: instToAdd = null; break;
-                }
+                Sprite instToAdd = GetProcedureImg(procedure[j]);
 
                 if (j == 0) {
                     ingredientInst1.GetChild(i).GetComponent<Image>().sprite = instToAdd;
+                    ingredientInst2.GetChild(i).GetComponent<Image>().sprite = null;
                 } else if (j == 1) {
                     ingredientInst2.GetChild(i).GetComponent<Image>().sprite = instToAdd;
                 }
@@ -168,6 +126,75 @@ public class Recipes : MonoBehaviour
 
         GameObject card = Instantiate(recipeCard, new Vector3(xPos, 25.1f, 0), Quaternion.identity) as GameObject;
         card.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
+    }
+
+    private GameObject GetRecipeCard(int ingredientsLen) {
+        switch (ingredientsLen) {
+            case 2: return recipeCard2;
+            case 3: return recipeCard3;
+            case 4: return recipeCard4;
+            default: return null;
+        }
+    }
+
+    private float GetRecipePos(int index) {
+        switch (index) {
+            case 0: return RECIPE_POS_0;
+            case 1: return RECIPE_POS_1;
+            case 2: return RECIPE_POS_2;
+            case 3: return RECIPE_POS_3;
+            case 4: return RECIPE_POS_4;
+            default: return 0;
+        }
+    }
+
+    private Sprite GetDishImg(string name) {
+        switch (name) {
+            case "tomato pasta": return tomatoPasta;
+            case "tomato cheese pasta": return tomatoCheesePasta;
+            case "tomato mushroom pasta": return tomatoMushroomPasta;
+            case "tomato meat pasta": return tomatoMeatPasta;
+            case "tomato fish pasta": return tomatoFishPasta;
+            case "tomato mushroom fish pasta": return tomatoMushroomFishPasta;
+            case "tomato mushroom meat pasta": return tomatoMushroomMeatPasta;
+            case "cheese pasta": return cheesePasta;
+            case "cheese mushroom pasta": return cheeseMushroomPasta;
+            case "cheese meat pasta": return cheeseMeatPasta;
+            case "cheese fish pasta": return cheeseFishPasta;
+            case "cheese mushroom fish pasta": return cheeseMushroomFishPasta;
+            case "cheese mushroom meat pasta": return cheeseMushroomMeatPasta;
+            default: return null;
+        }
+    }
+
+    private Sprite GetIngredientImg(string ingredient) {
+        switch (ingredient) {
+            case "pasta": return pasta;
+            case "fish": return fish;
+            case "mushroom": return mushroom;
+            case "tomato": return tomato;
+            case "cheese": return cheese;
+            case "meat": return meat;
+            default: return null;
+        }
+    }
+
+    private string[] GetProcedures(string ingredient) {
+        for (int i = 0; i < recipes.directions.Length; i++) {
+            if (ingredient == recipes.directions[i].name) {
+                return recipes.directions[i].procedure;
+            }
+        }
+        return null;
+    }
+
+    private Sprite GetProcedureImg(string procedure) {
+        switch (procedure) {
+            case "boil": return boil;
+            case "cut": return cut;
+            case "saute": return saute;
+            default: return null;
+        }
     }
 
     public bool CheckComplete(string[] ingredients) {
