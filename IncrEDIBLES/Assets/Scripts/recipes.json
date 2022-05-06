@@ -73,7 +73,7 @@
         },
         {
             "name": "fish",
-            "procedure": ["cut", "saute"]
+            "procedure": ["saute"]
         },
         {
             "name": "mushroom",
