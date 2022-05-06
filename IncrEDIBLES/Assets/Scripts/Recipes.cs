@@ -116,6 +116,7 @@ public class Recipes : MonoBehaviour
 
                 if (j == 0) {
                     ingredientInst1.GetChild(i).GetComponent<Image>().sprite = instToAdd;
+                    ingredientInst2.GetChild(i).GetComponent<Image>().sprite = null;
                 } else if (j == 1) {
                     ingredientInst2.GetChild(i).GetComponent<Image>().sprite = instToAdd;
                 }

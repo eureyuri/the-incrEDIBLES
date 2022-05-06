@@ -1,19 +1,13 @@
 {
-    "m_SelectedDeviceId": "1WMHHB64102027",
+    "m_SelectedDeviceId": "1WMHHB61U62025",
     "m_SelectedPackage": {
-        "deviceId": "1WMHHB64102027",
+        "deviceId": "1WMHHB61U62025",
         "name": "com.DefaultCompany.IncrEDIBLES",
-        "processId": 11865,
+        "processId": 21831,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "1WMHHB61U62025",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 23471,
-            "exited": true
-        },
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
@@ -42,6 +36,18 @@
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 4108,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.oculus.os.clearactivity",
+            "processId": 21073,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB61U62025",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 21831,
             "exited": false
         },
         {
@@ -215,7 +221,7 @@
         "MemoryGroup": 2,
         "Behavior": 0
     },
-    "m_Filter": "plate",
+    "m_Filter": "InstantiateRecipe",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
