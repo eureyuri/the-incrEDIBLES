@@ -14,6 +14,7 @@ public class TurnInDish : MonoBehaviour
         score = int.Parse(scoreText.text);
         Destroy(collision.gameObject);
         score += 10;
+        Score.score += 10;
         /*if (collision.gameObject.CompareTag("OverCooked"))
         {
             score -= 1;
