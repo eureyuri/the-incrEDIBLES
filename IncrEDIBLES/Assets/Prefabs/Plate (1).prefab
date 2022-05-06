@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 5006188304222728544}
   m_Layer: 0
   m_Name: Plate (1)
-  m_TagString: Untagged
+  m_TagString: Plate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -330,6 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86a5db73dc0dfd3479ee8cf80b23ff6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arrow: {fileID: 0}
 --- !u!114 &5704356147531882904
 MonoBehaviour:
   m_ObjectHideFlags: 0

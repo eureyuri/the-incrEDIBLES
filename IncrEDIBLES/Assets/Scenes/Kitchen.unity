@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44970763, g: 0.49977607, b: 0.5756336, a: 1}
+  m_IndirectSpecularColor: {r: 0.4497074, g: 0.49977583, b: 0.5756327, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -26226,9 +26226,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jsonRecipes: {fileID: 4900000, guid: 6bcb6690d25b84f49ad7122b5f71e660, type: 3}
-  recipes:
-    recipes: []
-    directions: []
   recipeCard2: {fileID: 8687271646353319782, guid: 27eedaf889e34424da083a6600a0d452, type: 3}
   recipeCard3: {fileID: 5218937576951972456, guid: 33d40c4a9be0cc343b863c4afbd5a095, type: 3}
   recipeCard4: {fileID: 679845697990642276, guid: 6d704f6575790c04aa066492b28ab4f7, type: 3}

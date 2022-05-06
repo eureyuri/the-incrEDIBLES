@@ -9,7 +9,7 @@ using System.Linq;
 public class Recipes : MonoBehaviour
 {
     public TextAsset jsonRecipes;
-    public AllRecipe recipes;
+    public static AllRecipe recipes;
     public GameObject recipeCard2;
     public GameObject recipeCard3;
     public GameObject recipeCard4;
@@ -37,9 +37,9 @@ public class Recipes : MonoBehaviour
     public Sprite saute;
 
     public static RecipeInfo[] currRecipes;
-    private readonly int NUM_RECIPES = 5;
-    private int allRecipeCount;
-    Random rand = new Random();
+    private static readonly int NUM_RECIPES = 5;
+    private static int allRecipeCount;
+    private static Random rand = new Random();
 
     private readonly float RECIPE_POS_0 = -25f;
     private readonly float RECIPE_POS_1 = -13.99f;
@@ -76,11 +76,11 @@ public class Recipes : MonoBehaviour
         InstantiateRecipes();
     }
 
-    private void GenerateRecipes() {
+    private static void GenerateRecipes() {
         for (int i = 0; i < NUM_RECIPES; i++) currRecipes[i] = PickRecipe();
     }
 
-    public RecipeInfo PickRecipe() {
+    public static RecipeInfo PickRecipe() {
         int i = rand.Next(allRecipeCount);
         return recipes.recipes[i];
     }
@@ -197,18 +197,20 @@ public class Recipes : MonoBehaviour
         }
     }
 
-    public bool CheckComplete(string[] ingredients) {
+    public static int CompleteAndReplace(string[] ingredients) {
+        Debug.Log("Recipes: CompleteAndReplace: check: " + ingredients);
         for (int i = 0; i < NUM_RECIPES; i++) {
-            // string[] currIngredients = Array.ConvertAll(currRecipes[i].ingredients, x => x.ToString());
+            Debug.Log("Recipes: CompleteAndReplace: existing: " + currRecipes[i].ingredients);
 
             // Check if correct. If correct replace the recipe with a new one
             if (currRecipes[i].ingredients.SequenceEqual(ingredients)) {
+                int points = currRecipes[i].score;
                 currRecipes[i] = PickRecipe();
-                return true;
+                return points;
             }
         }
 
-        return false;
+        return Score.decrementVal;
     }
 
 }

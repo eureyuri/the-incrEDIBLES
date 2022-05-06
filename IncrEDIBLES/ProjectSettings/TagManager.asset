@@ -24,6 +24,7 @@ TagManager:
   - Fish
   - knife2
   - Floor
+  - Plate
   layers:
   - Default
   - TransparentFX
