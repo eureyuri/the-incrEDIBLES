@@ -10,7 +10,7 @@ public class ChangeScene : MonoBehaviour
     }
 
     public static void Restart() {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public static void SceneById(int sceneIndex) {
