@@ -10,11 +10,9 @@ public class TurnInDish : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("TurnInDish: collided ");
         GameObject dish = collision.gameObject;
 
         if (dish.tag != "Plate") {
-            Debug.Log("TurnInDish: not plate");
             UpdateScore(Score.decrementVal);
             Destroy(dish);
             return;
@@ -48,11 +46,16 @@ public class TurnInDish : MonoBehaviour
 
 
     private string[] GetIngredientsOnDish(GameObject dish) {
-        int childCount = dish.transform.childCount;
+        Transform pasta = dish.transform.GetChild(0);
+
+        // pasta is the parent of the other ingredients so need to +1 for pasta
+        int childCount = pasta.childCount + 1;
         string[] ingredients = new string[childCount];
 
-        for (int i = 0; i < childCount; i++) {
-            GameObject child = dish.transform.GetChild(i).gameObject;
+        ingredients[0] = GetIngredientFromTag(pasta.gameObject.tag);
+
+        for (int i = 1; i < childCount; i++) {
+            GameObject child = pasta.GetChild(i - 1).gameObject;
             ingredients[i] = GetIngredientFromTag(child.tag);
         }
 

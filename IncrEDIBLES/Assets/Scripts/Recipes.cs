@@ -198,7 +198,6 @@ public class Recipes : MonoBehaviour
     }
 
     public static int CompleteAndReplace(string[] ingredients) {
-        Debug.Log("Recipes: CompleteAndReplace: check: " + ingredients);
         for (int i = 0; i < NUM_RECIPES; i++) {
             Debug.Log("Recipes: CompleteAndReplace: existing: " + currRecipes[i].ingredients);
 
