@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4607965321691876966}
   - component: {fileID: 1131429099885103990}
   - component: {fileID: 8707538902016374112}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mush piece (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 4078829553593532198}
   - component: {fileID: 1538842004116579417}
   - component: {fileID: 7032159646897216374}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mush piece (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 8895607338255295312}
   - component: {fileID: 7571178735711158300}
   - component: {fileID: 7258116001019344885}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mush piece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 3105850996340640467}
   - component: {fileID: 5948457384540235776}
   - component: {fileID: 3428404881687746813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mush piece (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -593,7 +593,7 @@ GameObject:
   - component: {fileID: 1921684572976903041}
   - component: {fileID: 3948231710237059515}
   - component: {fileID: 7099414078317717066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mush piece (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -688,7 +688,7 @@ GameObject:
   - component: {fileID: 2168848143691584929}
   - component: {fileID: 4226824238874022468}
   - component: {fileID: 3528479005172239050}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mush piece (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,7 +783,7 @@ GameObject:
   - component: {fileID: 8709126856079567442}
   - component: {fileID: 2929214286715304943}
   - component: {fileID: 1503978687650623755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mus piece (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 3534021142905788736}
   - component: {fileID: 2099261211301944139}
   - component: {fileID: 3393874250090393217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mush piece (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -973,7 +973,7 @@ GameObject:
   - component: {fileID: 5721706075360619599}
   - component: {fileID: 6695717542553711342}
   - component: {fileID: 1837486497062942029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mush piece (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1068,7 +1068,7 @@ GameObject:
   - component: {fileID: 4095910530598324544}
   - component: {fileID: 3623425821109690243}
   - component: {fileID: 8057262221074375587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mush piece (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1163,7 +1163,7 @@ GameObject:
   - component: {fileID: 3243669175754204175}
   - component: {fileID: 9006308376973365565}
   - component: {fileID: 3048130992732798331}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mush piece (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
