@@ -6,8 +6,7 @@ public class CutInstantiate : MonoBehaviour
 {
     public AudioSource audioSourceFinishCooking;
 
-    void Start()
-    {
+    public void PlayAudio() {
         audioSourceFinishCooking.Play();
     }
 }

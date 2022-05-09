@@ -82,6 +82,7 @@ public class CutCollision : MonoBehaviour
                     Quaternion rot = transform.rotation;
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
+                    clone.SendMessage("PlayAudio");
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
                 }
                 else
@@ -103,6 +104,7 @@ public class CutCollision : MonoBehaviour
                     Quaternion rot = transform.rotation;
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
+                    clone.SendMessage("PlayAudio");
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
                 }
                 else
@@ -124,6 +126,7 @@ public class CutCollision : MonoBehaviour
                     Quaternion rot = transform.rotation;
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
+                    clone.SendMessage("PlayAudio");
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
                 }
                 else
