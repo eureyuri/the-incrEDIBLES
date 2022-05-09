@@ -40,7 +40,7 @@ public class CutCollision : MonoBehaviour
                 GetComponent<Rigidbody>().isKinematic = true;
                 transform.parent = collided.transform;
                 transform.localPosition = new Vector3(0,0,z_axis);
-                transform.rotation = rotate;  
+                transform.rotation = rotate;
             }
         }
         else if(collided.CompareTag("cut1"))
@@ -82,6 +82,7 @@ public class CutCollision : MonoBehaviour
                     Quaternion rot = transform.rotation;
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
+                    clone.SendMessage("PlayAudio");
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
                 }
                 else
@@ -103,6 +104,7 @@ public class CutCollision : MonoBehaviour
                     Quaternion rot = transform.rotation;
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
+                    clone.SendMessage("PlayAudio");
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
                 }
                 else
@@ -124,6 +126,7 @@ public class CutCollision : MonoBehaviour
                     Quaternion rot = transform.rotation;
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
+                    clone.SendMessage("PlayAudio");
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
                 }
                 else
@@ -132,6 +135,6 @@ public class CutCollision : MonoBehaviour
                 }
             }
         }
-        
+
     }
 }

@@ -18,6 +18,8 @@ public class BoilingFood : MonoBehaviour
     private GameObject newPrefab;
     public GameObject pastaCookedPrefab;
     public GameObject pastaOvercookedPrefab;
+    public AudioSource audioSourceCooked;
+    public AudioSource audioSourceOvercooked;
 
     void Start()
     {
@@ -68,6 +70,7 @@ public class BoilingFood : MonoBehaviour
         if(cookTimer.activeSelf)
         {
             OnEnd();
+            audioSourceCooked.Play();
             cookTimer.SetActive(false);
             overcookTimer.SetActive(true);
             newPrefab = pastaOvercookedPrefab;
@@ -76,9 +79,10 @@ public class BoilingFood : MonoBehaviour
         else if(overcookTimer.activeSelf)
         {
             OnEnd();
+            audioSourceOvercooked.Play();
             overcookTimer.SetActive(false);
         }
-        
+
     }
 
     private void OnEnd()

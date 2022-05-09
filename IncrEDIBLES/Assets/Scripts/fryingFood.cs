@@ -15,7 +15,6 @@ public class fryingFood : MonoBehaviour
     private Vector3 position;
     private Quaternion rotation;
     private GameObject collisionObject;
-    private GameObject newPrefab;
     public GameObject steakPrefab;
     public GameObject steakOvercookedPrefab;
     public GameObject cookedTomatoPrefab;
@@ -24,6 +23,8 @@ public class fryingFood : MonoBehaviour
     public GameObject overCookedFishPrefab;
     public GameObject cookedMushroomPrefab;
     public GameObject overCookedMushroomPrefab;
+    public AudioSource audioSourceCooked;
+    public AudioSource audioSourceOvercooked;
 
     void Start()
     {
@@ -75,7 +76,7 @@ public class fryingFood : MonoBehaviour
         remainingDuration = Second;
         StartCoroutine(UpdateTimer(remainingDuration, uiFill, food));
     }
-    
+
     private IEnumerator UpdateTimer(int remainingDuration, Image uiFill, string food)
     {
         while(remainingDuration>0)
@@ -90,6 +91,7 @@ public class fryingFood : MonoBehaviour
                 Destroy(collisionObject);
                 yield return new WaitForSeconds(0.2f);
                 OnCookedEnd(food);
+                audioSourceCooked.Play();
             }
             else if(remainingDuration==0 && overcookTimer.activeSelf && !cookTimer.activeSelf)
             {
@@ -97,9 +99,10 @@ public class fryingFood : MonoBehaviour
                 Destroy(collisionObject);
                 yield return new WaitForSeconds(0.2f);
                 OnOvercookedEnd(food);
+                audioSourceOvercooked.Play();
             }
         }
-        
+
     }
 
     private void OnCookedEnd(string food)
@@ -121,11 +124,11 @@ public class fryingFood : MonoBehaviour
             collisionObject = Instantiate(cookedMushroomPrefab, position, rotation);
         }
         cookTimer.SetActive(false);
-        overcookTimer.SetActive(true);  
+        overcookTimer.SetActive(true);
         Begin(Duration, redFill, food);
     }
 
-    
+
     private void OnOvercookedEnd(string food)
     {
         overcookTimer.SetActive(false);
