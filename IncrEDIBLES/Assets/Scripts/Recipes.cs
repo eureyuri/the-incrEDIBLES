@@ -120,11 +120,11 @@ public class Recipes : MonoBehaviour
                 } else if (j == 1) {
                     ingredientInst2.GetChild(i).GetComponent<Image>().sprite = instToAdd;
                 }
-
             }
         }
 
         GameObject card = Instantiate(recipeCard, new Vector3(xPos, 25.1f, 0), Quaternion.identity) as GameObject;
+        card.tag = "Recipe" + index;
         card.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
     }
 
@@ -198,18 +198,37 @@ public class Recipes : MonoBehaviour
     }
 
     public static int CompleteAndReplace(string[] ingredients) {
+        // foreach (string ingredient in ingredients) {
+        //     Debug.Log("Recipes: CompleteAndReplace: incoming: " + ingredient);
+        // }
+        // Debug.Log("==============");
+
         for (int i = 0; i < NUM_RECIPES; i++) {
-            Debug.Log("Recipes: CompleteAndReplace: existing: " + currRecipes[i].ingredients);
+            // foreach (string ingredient in currRecipes[i].ingredients) {
+            //     Debug.Log("Recipes: CompleteAndReplace: existing: " + ingredient);
+            // }
+            // Debug.Log("=======");
+            // Debug.Log("Recipes: CompleteAndReplace: check: " + currRecipes[i].ingredients.SequenceEqual(ingredients));
 
             // Check if correct. If correct replace the recipe with a new one
             if (currRecipes[i].ingredients.SequenceEqual(ingredients)) {
                 int points = currRecipes[i].score;
-                currRecipes[i] = PickRecipe();
+                RecipeInfo newRecipe = PickRecipe();
+                currRecipes[i] = newRecipe;
+                Debug.Log("Recipes: CompleteAndReplace: newRecipe: " + newRecipe.name);
+                DestroyRecipeByIndex(i);
+                Recipes r = GameObject.FindGameObjectWithTag("Canvas").GetComponent<Recipes>();
+                r.InstantiateRecipe(newRecipe, i);
                 return points;
             }
         }
 
         return Score.decrementVal;
+    }
+
+    private static void DestroyRecipeByIndex(int index) {
+        GameObject toDestroy = GameObject.FindGameObjectsWithTag("Recipe" + index)[0];
+        Destroy(toDestroy);
     }
 
 }
