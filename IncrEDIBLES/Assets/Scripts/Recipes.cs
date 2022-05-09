@@ -9,7 +9,7 @@ using System.Linq;
 public class Recipes : MonoBehaviour
 {
     public TextAsset jsonRecipes;
-    public AllRecipe recipes;
+    public static AllRecipe recipes;
     public GameObject recipeCard2;
     public GameObject recipeCard3;
     public GameObject recipeCard4;
@@ -37,9 +37,9 @@ public class Recipes : MonoBehaviour
     public Sprite saute;
 
     public static RecipeInfo[] currRecipes;
-    private readonly int NUM_RECIPES = 5;
-    private int allRecipeCount;
-    Random rand = new Random();
+    private static readonly int NUM_RECIPES = 5;
+    private static int allRecipeCount;
+    private static Random rand = new Random();
 
     private readonly float RECIPE_POS_0 = -25f;
     private readonly float RECIPE_POS_1 = -13.99f;
@@ -76,11 +76,11 @@ public class Recipes : MonoBehaviour
         InstantiateRecipes();
     }
 
-    private void GenerateRecipes() {
+    private static void GenerateRecipes() {
         for (int i = 0; i < NUM_RECIPES; i++) currRecipes[i] = PickRecipe();
     }
 
-    public RecipeInfo PickRecipe() {
+    public static RecipeInfo PickRecipe() {
         int i = rand.Next(allRecipeCount);
         return recipes.recipes[i];
     }
@@ -120,11 +120,11 @@ public class Recipes : MonoBehaviour
                 } else if (j == 1) {
                     ingredientInst2.GetChild(i).GetComponent<Image>().sprite = instToAdd;
                 }
-
             }
         }
 
         GameObject card = Instantiate(recipeCard, new Vector3(xPos, 25.1f, 0), Quaternion.identity) as GameObject;
+        card.tag = "Recipe" + index;
         card.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
     }
 
@@ -197,18 +197,38 @@ public class Recipes : MonoBehaviour
         }
     }
 
-    public bool CheckComplete(string[] ingredients) {
+    public static int CompleteAndReplace(string[] ingredients) {
+        // foreach (string ingredient in ingredients) {
+        //     Debug.Log("Recipes: CompleteAndReplace: incoming: " + ingredient);
+        // }
+        // Debug.Log("==============");
+
         for (int i = 0; i < NUM_RECIPES; i++) {
-            // string[] currIngredients = Array.ConvertAll(currRecipes[i].ingredients, x => x.ToString());
+            // foreach (string ingredient in currRecipes[i].ingredients) {
+            //     Debug.Log("Recipes: CompleteAndReplace: existing: " + ingredient);
+            // }
+            // Debug.Log("=======");
+            // Debug.Log("Recipes: CompleteAndReplace: check: " + currRecipes[i].ingredients.SequenceEqual(ingredients));
 
             // Check if correct. If correct replace the recipe with a new one
             if (currRecipes[i].ingredients.SequenceEqual(ingredients)) {
-                currRecipes[i] = PickRecipe();
-                return true;
+                int points = currRecipes[i].score;
+                RecipeInfo newRecipe = PickRecipe();
+                currRecipes[i] = newRecipe;
+                Debug.Log("Recipes: CompleteAndReplace: newRecipe: " + newRecipe.name);
+                DestroyRecipeByIndex(i);
+                Recipes r = GameObject.FindGameObjectWithTag("Canvas").GetComponent<Recipes>();
+                r.InstantiateRecipe(newRecipe, i);
+                return points;
             }
         }
 
-        return false;
+        return Score.decrementVal;
+    }
+
+    private static void DestroyRecipeByIndex(int index) {
+        GameObject toDestroy = GameObject.FindGameObjectsWithTag("Recipe" + index)[0];
+        Destroy(toDestroy);
     }
 
 }
