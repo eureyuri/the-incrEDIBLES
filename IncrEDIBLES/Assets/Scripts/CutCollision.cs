@@ -11,7 +11,6 @@ public class CutCollision : MonoBehaviour
     public Text cut_num2;
 
     public GameObject cooked;
-    public AudioSource audioSourceFinishCooking;
     Quaternion rotate;
     float z_axis;
 
@@ -84,8 +83,6 @@ public class CutCollision : MonoBehaviour
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
-
-                    audioSourceFinishCooking.Play();
                 }
                 else
                 {
@@ -107,8 +104,6 @@ public class CutCollision : MonoBehaviour
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
-
-                    audioSourceFinishCooking.Play();
                 }
                 else
                 {
@@ -130,8 +125,6 @@ public class CutCollision : MonoBehaviour
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
-
-                    audioSourceFinishCooking.Play();
                 }
                 else
                 {
