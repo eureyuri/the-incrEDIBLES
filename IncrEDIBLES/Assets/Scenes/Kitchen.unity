@@ -1315,6 +1315,7 @@ MonoBehaviour:
   overCookedMushroomPrefab: {fileID: 1547512192390741876, guid: 0e6218e2ba9a98249a4e23215141736b, type: 3}
   audioSourceCooked: {fileID: 106964089}
   audioSourceOvercooked: {fileID: 106964088}
+  scoreText: {fileID: 1198435166}
 --- !u!65 &106964084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3491,7 +3492,6 @@ MonoBehaviour:
   cut_num1: {fileID: 1743370655}
   cut_num2: {fileID: 635382455}
   cooked: {fileID: 3926198456817871966, guid: 134421aa68dc044bab3e930d56be3299, type: 3}
-  audioSourceFinishCooking: {fileID: 230960273}
 --- !u!114 &230960272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7713,6 +7713,7 @@ MonoBehaviour:
   pastaOvercookedPrefab: {fileID: 5340909977491964161, guid: 046fce9b8634a4041bc66973b9b6a944, type: 3}
   audioSourceCooked: {fileID: 461260461}
   audioSourceOvercooked: {fileID: 461260460}
+  scoreText: {fileID: 1198435166}
 --- !u!82 &461260460
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11998,7 +11999,6 @@ MonoBehaviour:
   cut_num1: {fileID: 1743370655}
   cut_num2: {fileID: 635382455}
   cooked: {fileID: 549420988557140010, guid: 48232b8b62f163c418779eadce179c24, type: 3}
-  audioSourceFinishCooking: {fileID: 711100661}
 --- !u!114 &711100660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12543,6 +12543,7 @@ MonoBehaviour:
   overCookedMushroomPrefab: {fileID: 1547512192390741876, guid: 0e6218e2ba9a98249a4e23215141736b, type: 3}
   audioSourceCooked: {fileID: 746774665}
   audioSourceOvercooked: {fileID: 746774664}
+  scoreText: {fileID: 1198435166}
 --- !u!65 &746774660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29091,6 +29092,7 @@ MonoBehaviour:
   pastaOvercookedPrefab: {fileID: 5340909977491964161, guid: 046fce9b8634a4041bc66973b9b6a944, type: 3}
   audioSourceCooked: {fileID: 1636620660}
   audioSourceOvercooked: {fileID: 1636620659}
+  scoreText: {fileID: 1198435166}
 --- !u!82 &1636620659
 AudioSource:
   m_ObjectHideFlags: 0
@@ -33919,7 +33921,6 @@ MonoBehaviour:
   cut_num1: {fileID: 1743370655}
   cut_num2: {fileID: 635382455}
   cooked: {fileID: 6258310994660056135, guid: 622abe8d1bffe4fbf854f80eeba4fea0, type: 3}
-  audioSourceFinishCooking: {fileID: 1875765882}
 --- !u!114 &1875765879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38317,6 +38318,7 @@ MonoBehaviour:
   overCookedMushroomPrefab: {fileID: 1547512192390741876, guid: 0e6218e2ba9a98249a4e23215141736b, type: 3}
   audioSourceCooked: {fileID: 1135606185417986560}
   audioSourceOvercooked: {fileID: 1135606185417986559}
+  scoreText: {fileID: 1198435166}
 --- !u!82 &1135606185417986559
 AudioSource:
   m_ObjectHideFlags: 0
@@ -41403,6 +41405,7 @@ MonoBehaviour:
   pastaOvercookedPrefab: {fileID: 5340909977491964161, guid: 046fce9b8634a4041bc66973b9b6a944, type: 3}
   audioSourceCooked: {fileID: 5035414732372413795}
   audioSourceOvercooked: {fileID: 5035414732372413794}
+  scoreText: {fileID: 1198435166}
 --- !u!65 &5035414732372413793
 BoxCollider:
   m_ObjectHideFlags: 0

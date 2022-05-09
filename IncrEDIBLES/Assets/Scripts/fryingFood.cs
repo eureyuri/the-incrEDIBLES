@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
+using TMPro;
 
 public class fryingFood : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class fryingFood : MonoBehaviour
     public GameObject overCookedMushroomPrefab;
     public AudioSource audioSourceCooked;
     public AudioSource audioSourceOvercooked;
+    public TextMeshProUGUI scoreText;
 
     void Start()
     {
@@ -100,9 +102,18 @@ public class fryingFood : MonoBehaviour
                 yield return new WaitForSeconds(0.2f);
                 OnOvercookedEnd(food);
                 audioSourceOvercooked.Play();
+                ScoreDecrement();
             }
         }
+    }
 
+    private void ScoreDecrement() {
+        Score.adjust(-5);
+        int score = Score.score;
+        if(score < 0) scoreText.color = new Color(255, 0, 0, 255);
+        else scoreText.color = new Color(255, 255, 255, 255);
+
+        scoreText.text = score.ToString();
     }
 
     private void OnCookedEnd(string food)
