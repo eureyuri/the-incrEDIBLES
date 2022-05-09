@@ -138,4 +138,8 @@ public class CombineFood : MonoBehaviour
         childObject.transform.localPosition = new Vector3(0, 0.1f, 0);
     }
 
+    public List<string> GetFoodOnPlate() {
+        return foodOnPlate;
+    }
+
 }
