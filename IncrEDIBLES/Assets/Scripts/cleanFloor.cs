@@ -12,6 +12,7 @@ public class cleanFloor : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        Destroy(collision.gameObject);
         audioSourceWrong.Play();
 
         Score.adjust(-5);

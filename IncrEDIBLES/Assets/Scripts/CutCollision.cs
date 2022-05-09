@@ -11,6 +11,7 @@ public class CutCollision : MonoBehaviour
     public Text cut_num2;
 
     public GameObject cooked;
+    public AudioSource audioSourceFinishCooking;
     Quaternion rotate;
     float z_axis;
 
@@ -40,7 +41,7 @@ public class CutCollision : MonoBehaviour
                 GetComponent<Rigidbody>().isKinematic = true;
                 transform.parent = collided.transform;
                 transform.localPosition = new Vector3(0,0,z_axis);
-                transform.rotation = rotate;  
+                transform.rotation = rotate;
             }
         }
         else if(collided.CompareTag("cut1"))
@@ -83,6 +84,8 @@ public class CutCollision : MonoBehaviour
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
+
+                    audioSourceFinishCooking.Play();
                 }
                 else
                 {
@@ -104,6 +107,8 @@ public class CutCollision : MonoBehaviour
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
+
+                    audioSourceFinishCooking.Play();
                 }
                 else
                 {
@@ -125,6 +130,8 @@ public class CutCollision : MonoBehaviour
                     Destroy(gameObject);
                     GameObject clone = Instantiate(cooked, pos, rot);
                     clone.GetComponent<OffsetGrabInteractable>().enabled = true;
+
+                    audioSourceFinishCooking.Play();
                 }
                 else
                 {
@@ -132,6 +139,6 @@ public class CutCollision : MonoBehaviour
                 }
             }
         }
-        
+
     }
 }
