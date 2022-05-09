@@ -24,6 +24,12 @@ TagManager:
   - Fish
   - knife2
   - Floor
+  - Plate
+  - Recipe1
+  - Recipe2
+  - Recipe3
+  - Recipe4
+  - Recipe0
   layers:
   - Default
   - TransparentFX

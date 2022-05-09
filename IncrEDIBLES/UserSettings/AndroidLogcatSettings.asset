@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "1WMHHB61U62025",
         "name": "com.DefaultCompany.IncrEDIBLES",
-        "processId": 21831,
+        "processId": 24487,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,43 +11,37 @@
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 23956,
+            "processId": 21797,
             "exited": true
         },
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 25625,
+            "processId": 22195,
             "exited": true
         },
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 14430,
+            "processId": 22658,
             "exited": true
         },
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 15758,
+            "processId": 23198,
             "exited": true
         },
         {
             "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 4108,
+            "processId": 23839,
             "exited": true
         },
         {
             "deviceId": "1WMHHB61U62025",
-            "name": "com.oculus.os.clearactivity",
-            "processId": 21073,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHHB61U62025",
             "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 21831,
+            "processId": 24487,
             "exited": false
         },
         {
@@ -221,7 +215,7 @@
         "MemoryGroup": 2,
         "Behavior": 0
     },
-    "m_Filter": "InstantiateRecipe",
+    "m_Filter": "",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }

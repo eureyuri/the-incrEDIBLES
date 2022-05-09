@@ -1517,7 +1517,7 @@ GameObject:
   - component: {fileID: 1726446171829956620}
   m_Layer: 0
   m_Name: mini cheese
-  m_TagString: Untagged
+  m_TagString: ReadyCheese
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -2038,7 +2038,7 @@ GameObject:
   - component: {fileID: 9050880049208916554}
   m_Layer: 0
   m_Name: mini cheese
-  m_TagString: Untagged
+  m_TagString: ReadyCheese
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3189,7 +3189,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9844aec2e44de493ba15e9cbc54d87a1, type: 2}
     - target: {fileID: 919132149155446097, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
       propertyPath: m_Name
-      value: CheeseMeatPasta
+      value: CheeseMushroomMeatPasta
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f8dc34aa0311b45a6b947f2a870dbbaa, type: 3}
       propertyPath: m_TagString
