@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
+using TMPro;
 
 public class BoilingFood : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class BoilingFood : MonoBehaviour
     public GameObject pastaOvercookedPrefab;
     public AudioSource audioSourceCooked;
     public AudioSource audioSourceOvercooked;
+    public TextMeshProUGUI scoreText;
 
     void Start()
     {
@@ -80,9 +82,19 @@ public class BoilingFood : MonoBehaviour
         {
             OnEnd();
             audioSourceOvercooked.Play();
+            ScoreDecrement();
             overcookTimer.SetActive(false);
         }
 
+    }
+
+    private void ScoreDecrement() {
+        Score.adjust(-5);
+        int score = Score.score;
+        if(score < 0) scoreText.color = new Color(255, 0, 0, 255);
+        else scoreText.color = new Color(255, 255, 255, 255);
+
+        scoreText.text = score.ToString();
     }
 
     private void OnEnd()
