@@ -41,11 +41,11 @@ public class Recipes : MonoBehaviour
     private int allRecipeCount;
     Random rand = new Random();
 
-    private readonly float RECIPE_POS_0 = -25f;
-    private readonly float RECIPE_POS_1 = -13.99f;
-    private readonly float RECIPE_POS_2 = -3.1f;
-    private readonly float RECIPE_POS_3 = 7.16f;
-    private readonly float RECIPE_POS_4 = 18.5f;
+    private readonly float RECIPE_POS_0 = -27f;
+    private readonly float RECIPE_POS_1 = -20f;
+    private readonly float RECIPE_POS_2 = -13f;
+    private readonly float RECIPE_POS_3 = -6f;
+    private readonly float RECIPE_POS_4 = 1f;
 
     [System.Serializable]
     public class RecipeInfo {
@@ -96,6 +96,7 @@ public class Recipes : MonoBehaviour
         if (recipeCard == null) return;
 
         float xPos = GetRecipePos(index);
+        float yPos = 32.5f;
 
         Sprite dish = GetDishImg(recipe.name);
         recipeCard.transform.GetChild(0).GetComponent<Image>().sprite = dish;
@@ -124,7 +125,7 @@ public class Recipes : MonoBehaviour
             }
         }
 
-        GameObject card = Instantiate(recipeCard, new Vector3(xPos, 25.1f, 0), Quaternion.identity) as GameObject;
+        GameObject card = Instantiate(recipeCard, new Vector3(xPos, yPos, 0), Quaternion.identity) as GameObject;
         card.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
     }
 
