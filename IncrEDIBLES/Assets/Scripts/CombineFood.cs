@@ -19,6 +19,7 @@ public class CombineFood : MonoBehaviour
     public GameObject cheeseFishPasta;
     public GameObject cheeseMushroomFishPasta;
     public GameObject cheeseMushroomMeatPasta;
+    public AudioSource audioSourcePlaceFood;
 
     void Start() {
         foodOnPlate = new List<string>();
@@ -51,16 +52,22 @@ public class CombineFood : MonoBehaviour
 
     private void AddToPlate(GameObject collided) {
         if (collided.CompareTag("ReadyPasta") && !foodOnPlate.Contains("pasta")) {
+            audioSourcePlaceFood.Play();
             foodOnPlate.Add("pasta");
         } else if (collided.CompareTag("ReadyTomato") && !foodOnPlate.Contains("tomato")) {
+            audioSourcePlaceFood.Play();
             foodOnPlate.Add("tomato");
         } else if (collided.CompareTag("ReadyFish") && !foodOnPlate.Contains("fish")) {
+            audioSourcePlaceFood.Play();
             foodOnPlate.Add("fish");
         } else if (collided.CompareTag("ReadyMushroom") && !foodOnPlate.Contains("mushroom")) {
+            audioSourcePlaceFood.Play();
             foodOnPlate.Add("mushroom");
         } else if (collided.CompareTag("ReadyCheese") && !foodOnPlate.Contains("cheese")) {
+            audioSourcePlaceFood.Play();
             foodOnPlate.Add("cheese");
         } else if (collided.CompareTag("ReadyMeat") && !foodOnPlate.Contains("meat")) {
+            audioSourcePlaceFood.Play();
             foodOnPlate.Add("meat");
         }
     }
