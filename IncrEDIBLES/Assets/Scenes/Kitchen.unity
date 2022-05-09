@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44970727, g: 0.4997756, b: 0.57563245, a: 1}
+  m_IndirectSpecularColor: {r: 0.44782746, g: 0.49781412, b: 0.5754409, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -332,8 +332,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_Colliders: []
   m_InteractionLayerMask:
@@ -1297,8 +1297,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c415f8de854aa6418bc2ecbda436f87, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   redFill: {fileID: 522918651}
   greenFill: {fileID: 873803066}
   overcookTimer: {fileID: 615372207}
@@ -1761,8 +1761,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -2333,8 +2333,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -2350,8 +2350,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -3025,8 +3025,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -3174,8 +3174,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1140bc3fc673147e19933131fc17aaae, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   timeValue: 180
   timerText: {fileID: 230890719}
   endGame: End-Screen
@@ -3189,8 +3189,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -3249,8 +3249,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &230960269
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3277,8 +3277,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &230960271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3289,8 +3289,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83d262f1dff241a468bdbb4c88f7cb76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   cut_num: {fileID: 2001562545}
   cut_num1: {fileID: 1743370655}
   cut_num2: {fileID: 635382455}
@@ -3305,8 +3305,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_Colliders: []
   m_InteractionLayerMask:
@@ -3349,7 +3349,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   m_Activated:
@@ -3709,8 +3709,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -3903,8 +3903,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -3920,8 +3920,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -4001,8 +4001,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -4970,8 +4970,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -5464,8 +5464,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -6011,8 +6011,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -7008,8 +7008,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -7167,8 +7167,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -7184,8 +7184,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -7408,8 +7408,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6528104dd2b277b49a88b12aea92ecb7, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   redFill: {fileID: 898340242}
   greenFill: {fileID: 1264659469}
   overcookTimer: {fileID: 1158773090}
@@ -7797,8 +7797,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -7872,8 +7872,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -8045,8 +8045,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -8361,8 +8361,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -8734,8 +8734,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -9404,8 +9404,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -10092,8 +10092,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_Colliders: []
   m_InteractionLayerMask:
@@ -10236,8 +10236,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23875a7ce557ca7409dd48485388d028, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &624737044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10248,8 +10248,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &631776960
 GameObject:
   m_ObjectHideFlags: 0
@@ -10293,8 +10293,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
@@ -10302,8 +10302,8 @@ MonoBehaviour:
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
-  m_ModelSelectTransition:
-  m_ModelDeSelectTransition:
+  m_ModelSelectTransition: 
+  m_ModelDeSelectTransition: 
   m_ControllerNode: 5
   m_SelectUsage: 3
   m_ActivateUsage: 2
@@ -10337,8 +10337,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -10452,8 +10452,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -10629,8 +10629,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -10704,8 +10704,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -11105,8 +11105,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Camera: {fileID: 1120100367}
   m_OriginBaseGameObject: {fileID: 684494582}
   m_CameraFloorOffsetObject: {fileID: 1833444740}
@@ -11137,8 +11137,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_System: {fileID: 684494586}
 --- !u!114 &684494586
 MonoBehaviour:
@@ -11150,8 +11150,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Timeout: 10
   m_XROrigin: {fileID: 684494583}
 --- !u!114 &684494587
@@ -11164,8 +11164,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 615d560673ed2e54892e9251626c64f5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   leftTeleportRay: {fileID: 772772662}
   teleportActivationButton: 2
   activationThreshold: 0.1
@@ -11179,8 +11179,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_System: {fileID: 684494586}
   m_MoveSpeed: 3
   m_EnableStrafe: 1
@@ -11192,10 +11192,10 @@ MonoBehaviour:
     m_Action:
       m_Name: Left Hand Move
       m_Type: 0
-      m_ExpectedControlType:
+      m_ExpectedControlType: 
       m_Id: 72692550-e5f2-408d-a421-63d98a1aa904
-      m_Processors:
-      m_Interactions:
+      m_Processors: 
+      m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
@@ -11204,10 +11204,10 @@ MonoBehaviour:
     m_Action:
       m_Name: Right Hand Move
       m_Type: 0
-      m_ExpectedControlType:
+      m_ExpectedControlType: 
       m_Id: bad4f45b-1c7a-4b7a-b4ac-af49680681c7
-      m_Processors:
-      m_Interactions:
+      m_Processors: 
+      m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
@@ -11318,8 +11318,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 86a5db73dc0dfd3479ee8cf80b23ff6c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &711100654 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b53fab1a8a71cf745ad1af6d16214489, type: 3}
@@ -11348,8 +11348,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &711100657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11360,8 +11360,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_Colliders: []
   m_InteractionLayerMask:
@@ -11404,7 +11404,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   m_Activated:
@@ -11503,8 +11503,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83d262f1dff241a468bdbb4c88f7cb76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   cut_num: {fileID: 2001562545}
   cut_num1: {fileID: 1743370655}
   cut_num2: {fileID: 635382455}
@@ -11519,8 +11519,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &711239494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11700,8 +11700,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -11939,8 +11939,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c415f8de854aa6418bc2ecbda436f87, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   redFill: {fileID: 720569556}
   greenFill: {fileID: 315404941}
   overcookTimer: {fileID: 1008389556}
@@ -12269,8 +12269,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 86a5db73dc0dfd3479ee8cf80b23ff6c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &772772657
 GameObject:
   m_ObjectHideFlags: 0
@@ -12316,8 +12316,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_LineWidth: 0.01
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
@@ -12516,8 +12516,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -12623,8 +12623,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
@@ -12632,8 +12632,8 @@ MonoBehaviour:
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
-  m_ModelSelectTransition:
-  m_ModelDeSelectTransition:
+  m_ModelSelectTransition: 
+  m_ModelDeSelectTransition: 
   m_ControllerNode: 4
   m_SelectUsage: 2
   m_ActivateUsage: 2
@@ -13030,11 +13030,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 998342318568856333, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: arrow
-      value:
+      value: 
       objectReference: {fileID: 1028676453}
     - target: {fileID: 1074648387322788247, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_Camera
-      value:
+      value: 
       objectReference: {fileID: 1120100367}
     - target: {fileID: 1074648387322788247, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_RenderMode
@@ -13062,11 +13062,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5704356147531882904, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value:
+      value: 
       objectReference: {fileID: 692655384}
     - target: {fileID: 5704356147531882904, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value:
+      value: 
       objectReference: {fileID: 692655384}
     - target: {fileID: 5704356147531882904, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -13214,55 +13214,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheesePasta
-      value:
+      value: 
       objectReference: {fileID: 8038064032339951548, guid: 47650a259e04747038ffa6e856a7b1e9, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoPasta
-      value:
+      value: 
       objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseFishPasta
-      value:
+      value: 
       objectReference: {fileID: 489800256327074327, guid: c4ac1aff9a3e742739715e7008b3707f, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 3919027753351007473, guid: 11d795d9dbefd4183888f216951edb08, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoFishPasta
-      value:
+      value: 
       objectReference: {fileID: 5519069446295252427, guid: 4f87dfcb89cc6495b85fb737529e4344, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 1265030744316602794, guid: 426ef3b7b8abb4ecba59dfe6d4aa7c00, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoCheesePasta
-      value:
+      value: 
       objectReference: {fileID: 1875048969802151784, guid: 21fab2eae5e4d453da4aeb8c5f0be1ab, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMushroomPasta
-      value:
+      value: 
       objectReference: {fileID: 6726034482890886549, guid: 78016531b204e454d9113ea63147671b, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMushroomPasta
-      value:
+      value: 
       objectReference: {fileID: 1798436716870151419, guid: 359536e0c4977454180de6ca37bb7ac6, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMushroomFishPasta
-      value:
+      value: 
       objectReference: {fileID: 3618761341341312470, guid: 987fe42056cf34fbabb6767ce830370a, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMushroomMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 4027959726819883199, guid: d4e86635117db4cd99b873fd2a8c6854, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMushroomFishPasta
-      value:
+      value: 
       objectReference: {fileID: 2328083268565886546, guid: e90c10811e98047f5847984da7244bc1, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMushroomMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 1217288561795896314, guid: 35fee5cb9b84d4d539e5b268558e0ae8, type: 3}
     - target: {fileID: 8904185606101043196, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_IsKinematic
@@ -13477,8 +13477,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &839851766
 GameObject:
   m_ObjectHideFlags: 0
@@ -13833,8 +13833,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &857106556 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 998342318568856333, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
@@ -13844,8 +13844,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 86a5db73dc0dfd3479ee8cf80b23ff6c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &862967779
 GameObject:
   m_ObjectHideFlags: 0
@@ -13956,8 +13956,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -13973,8 +13973,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -14082,8 +14082,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -14210,8 +14210,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 927c53c41dda7475e8fc398afcedb8ac, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   initialTime: 180
 --- !u!4 &881461552
 Transform:
@@ -14240,11 +14240,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 998342318568856333, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: arrow
-      value:
+      value: 
       objectReference: {fileID: 856176496}
     - target: {fileID: 1074648387322788247, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_Camera
-      value:
+      value: 
       objectReference: {fileID: 1120100367}
     - target: {fileID: 1074648387322788247, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_RenderMode
@@ -14276,11 +14276,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5704356147531882904, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value:
+      value: 
       objectReference: {fileID: 765869705}
     - target: {fileID: 5704356147531882904, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value:
+      value: 
       objectReference: {fileID: 765869705}
     - target: {fileID: 5704356147531882904, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -14428,55 +14428,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheesePasta
-      value:
+      value: 
       objectReference: {fileID: 8038064032339951548, guid: 47650a259e04747038ffa6e856a7b1e9, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoPasta
-      value:
+      value: 
       objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseFishPasta
-      value:
+      value: 
       objectReference: {fileID: 489800256327074327, guid: c4ac1aff9a3e742739715e7008b3707f, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 3919027753351007473, guid: 11d795d9dbefd4183888f216951edb08, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoFishPasta
-      value:
+      value: 
       objectReference: {fileID: 5519069446295252427, guid: 4f87dfcb89cc6495b85fb737529e4344, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 1265030744316602794, guid: 426ef3b7b8abb4ecba59dfe6d4aa7c00, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoCheesePasta
-      value:
+      value: 
       objectReference: {fileID: 1875048969802151784, guid: 21fab2eae5e4d453da4aeb8c5f0be1ab, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMushroomPasta
-      value:
+      value: 
       objectReference: {fileID: 6726034482890886549, guid: 78016531b204e454d9113ea63147671b, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMushroomPasta
-      value:
+      value: 
       objectReference: {fileID: 1798436716870151419, guid: 359536e0c4977454180de6ca37bb7ac6, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMushroomFishPasta
-      value:
+      value: 
       objectReference: {fileID: 3618761341341312470, guid: 987fe42056cf34fbabb6767ce830370a, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMushroomMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 4027959726819883199, guid: d4e86635117db4cd99b873fd2a8c6854, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMushroomFishPasta
-      value:
+      value: 
       objectReference: {fileID: 2328083268565886546, guid: e90c10811e98047f5847984da7244bc1, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMushroomMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 1217288561795896314, guid: 35fee5cb9b84d4d539e5b268558e0ae8, type: 3}
     - target: {fileID: 8904185606101043196, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_IsKinematic
@@ -14535,8 +14535,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -14608,11 +14608,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 998342318568856333, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: arrow
-      value:
+      value: 
       objectReference: {fileID: 834758340}
     - target: {fileID: 1074648387322788247, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_Camera
-      value:
+      value: 
       objectReference: {fileID: 1120100367}
     - target: {fileID: 1074648387322788247, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_RenderMode
@@ -14640,11 +14640,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5704356147531882904, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value:
+      value: 
       objectReference: {fileID: 857106556}
     - target: {fileID: 5704356147531882904, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value:
+      value: 
       objectReference: {fileID: 857106556}
     - target: {fileID: 5704356147531882904, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -14796,55 +14796,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheesePasta
-      value:
+      value: 
       objectReference: {fileID: 8038064032339951548, guid: 47650a259e04747038ffa6e856a7b1e9, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoPasta
-      value:
+      value: 
       objectReference: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseFishPasta
-      value:
+      value: 
       objectReference: {fileID: 489800256327074327, guid: c4ac1aff9a3e742739715e7008b3707f, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 3919027753351007473, guid: 11d795d9dbefd4183888f216951edb08, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoFishPasta
-      value:
+      value: 
       objectReference: {fileID: 5519069446295252427, guid: 4f87dfcb89cc6495b85fb737529e4344, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 1265030744316602794, guid: 426ef3b7b8abb4ecba59dfe6d4aa7c00, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoCheesePasta
-      value:
+      value: 
       objectReference: {fileID: 1875048969802151784, guid: 21fab2eae5e4d453da4aeb8c5f0be1ab, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMushroomPasta
-      value:
+      value: 
       objectReference: {fileID: 6726034482890886549, guid: 78016531b204e454d9113ea63147671b, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMushroomPasta
-      value:
+      value: 
       objectReference: {fileID: 1798436716870151419, guid: 359536e0c4977454180de6ca37bb7ac6, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMushroomFishPasta
-      value:
+      value: 
       objectReference: {fileID: 3618761341341312470, guid: 987fe42056cf34fbabb6767ce830370a, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: cheeseMushroomMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 4027959726819883199, guid: d4e86635117db4cd99b873fd2a8c6854, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMushroomFishPasta
-      value:
+      value: 
       objectReference: {fileID: 2328083268565886546, guid: e90c10811e98047f5847984da7244bc1, type: 3}
     - target: {fileID: 8904185606101043195, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: tomatoMushroomMeatPasta
-      value:
+      value: 
       objectReference: {fileID: 1217288561795896314, guid: 35fee5cb9b84d4d539e5b268558e0ae8, type: 3}
     - target: {fileID: 8904185606101043196, guid: 88bc30cba85c14579b53ac88e709296d, type: 3}
       propertyPath: m_IsKinematic
@@ -15087,8 +15087,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -16174,8 +16174,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_Colliders: []
   m_InteractionLayerMask:
@@ -16617,8 +16617,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &990545041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16629,8 +16629,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_Colliders: []
   m_InteractionLayerMask:
@@ -16673,7 +16673,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   m_Activated:
@@ -16772,8 +16772,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1006916267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16878,8 +16878,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4514e61755d35f4cb5266df150f8ac6, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   scoreText: {fileID: 1198435166}
 --- !u!1 &1008389556
 GameObject:
@@ -17283,8 +17283,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1030064941
 GameObject:
   m_ObjectHideFlags: 0
@@ -17513,8 +17513,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -17530,8 +17530,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -17611,8 +17611,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -18549,8 +18549,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -18764,8 +18764,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -18999,8 +18999,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Device: 0
   m_PoseSource: 2
   m_PoseProviderComponent: {fileID: 0}
@@ -19068,8 +19068,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ac20df6282234e419ee9915e0fd1676, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   motionTarget: {fileID: 684494584}
   effectColor: {r: 0, g: 0, b: 0, a: 1}
   effectCoverage: 0.73
@@ -19987,8 +19987,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -20004,8 +20004,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -20429,8 +20429,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -20747,8 +20747,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -21395,8 +21395,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -21555,8 +21555,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -21572,8 +21572,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -21897,8 +21897,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -22119,8 +22119,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -22897,8 +22897,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -23237,8 +23237,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -23863,8 +23863,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1417828894
 Transform:
   m_ObjectHideFlags: 0
@@ -23889,8 +23889,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_ActionAssets:
   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1423447514
@@ -24021,8 +24021,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -24593,8 +24593,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -26123,8 +26123,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 0
   m_CheckFor2DOcclusion: 0
   m_CheckFor3DOcclusion: 0
@@ -26142,8 +26142,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -26159,8 +26159,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -26223,8 +26223,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a235d97b7228d4b9ea3e22b8e0b90312, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   jsonRecipes: {fileID: 4900000, guid: 6bcb6690d25b84f49ad7122b5f71e660, type: 3}
   recipeCard2: {fileID: 8687271646353319782, guid: 27eedaf889e34424da083a6600a0d452, type: 3}
   recipeCard3: {fileID: 5218937576951972456, guid: 33d40c4a9be0cc343b863c4afbd5a095, type: 3}
@@ -26886,8 +26886,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
@@ -26895,8 +26895,8 @@ MonoBehaviour:
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
-  m_ModelSelectTransition:
-  m_ModelDeSelectTransition:
+  m_ModelSelectTransition: 
+  m_ModelDeSelectTransition: 
   m_ControllerNode: 4
   m_SelectUsage: 3
   m_ActivateUsage: 2
@@ -28048,8 +28048,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6528104dd2b277b49a88b12aea92ecb7, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   redFill: {fileID: 551003384}
   greenFill: {fileID: 1286744947}
   overcookTimer: {fileID: 1456666578}
@@ -28152,8 +28152,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &1640231201
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28193,8 +28193,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23875a7ce557ca7409dd48485388d028, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1640231204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28205,8 +28205,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_Colliders: []
   m_InteractionLayerMask:
@@ -28440,8 +28440,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -28496,8 +28496,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab68ce6587aab0146b8dabefbd806791, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_ClickSpeed: 0.3
   m_MoveDeadzone: 0.6
   m_RepeatDelay: 0.5
@@ -28523,8 +28523,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -28591,8 +28591,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -28811,7 +28811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 492447569695521613, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_Materials.Array.data[0]
-      value:
+      value: 
       objectReference: {fileID: 2100000, guid: 8be1ac51e49ba8e458d0f65562bb70c5, type: 2}
     - target: {fileID: 4902333365990066267, guid: 6414098d953f94007b7a926275272295, type: 3}
       propertyPath: m_Name
@@ -28890,8 +28890,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be9e4e344a36f27469bbeeb623f3950b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   scoreText: {fileID: 1198435166}
 --- !u!1 &1673947719
 GameObject:
@@ -29237,8 +29237,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1686213846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29249,8 +29249,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_Colliders: []
   m_InteractionLayerMask:
@@ -29293,7 +29293,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   m_Activated:
@@ -29376,8 +29376,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1687299207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29721,8 +29721,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -29738,8 +29738,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -29979,8 +29979,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93e9a878a9a324c6885cae7433e498a2, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   audioSourceNormal: {fileID: 1727827699}
   audioSourceLast: {fileID: 1727827702}
   audioGameOver: {fileID: 1727827703}
@@ -30456,8 +30456,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -31963,13 +31963,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845312714}
-  m_LocalRotation: {x: 0.3420201, y: 0, z: 0, w: 0.9396927}
-  m_LocalPosition: {x: 80, y: 0, z: 0}
+  m_LocalRotation: {x: 0.39313957, y: 0, z: 0, w: 0.91947883}
+  m_LocalPosition: {x: -0.39, y: 10.47, z: -5.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 36
-  m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 46.3, y: 0, z: 0}
 --- !u!1 &1847048878
 GameObject:
   m_ObjectHideFlags: 0
@@ -32284,8 +32284,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -32359,8 +32359,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -32577,8 +32577,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce26c08e5ffaf844392bf61ea079f9aa, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1875765878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32589,8 +32589,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83d262f1dff241a468bdbb4c88f7cb76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   cut_num: {fileID: 2001562545}
   cut_num1: {fileID: 1743370655}
   cut_num2: {fileID: 635382455}
@@ -32605,8 +32605,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &1875765880
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32633,8 +32633,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_Colliders: []
   m_InteractionLayerMask:
@@ -32677,7 +32677,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   m_Activated:
@@ -32854,8 +32854,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -33089,8 +33089,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -33106,8 +33106,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -33600,8 +33600,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -33934,8 +33934,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -34013,8 +34013,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.066037714, g: 0.06566392, b: 0.06566392, a: 0.7882353}
   m_RaycastTarget: 1
@@ -35184,8 +35184,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 0.19607843}
   m_RaycastTarget: 1
@@ -35587,8 +35587,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -35604,8 +35604,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -36303,8 +36303,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfdd77be9fc9a544bb4b02c8e6d914ff, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &559719430536195819
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36344,8 +36344,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23875a7ce557ca7409dd48485388d028, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &559719430536195822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36356,8 +36356,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6524fb17406593b459e1ad29d3494433, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1417828893}
   m_Colliders: []
   m_InteractionLayerMask:
@@ -36878,8 +36878,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c415f8de854aa6418bc2ecbda436f87, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   redFill: {fileID: 374701556}
   greenFill: {fileID: 1861587301}
   overcookTimer: {fileID: 599892031}
@@ -38238,6 +38238,8 @@ GameObject:
   - component: {fileID: 5656752634882873209}
   - component: {fileID: 3135584824777137144}
   - component: {fileID: 3135584824777137145}
+  - component: {fileID: 3135584824777137147}
+  - component: {fileID: 3135584824777137146}
   m_Layer: 0
   m_Name: Turn-In
   m_TagString: Untagged
@@ -38255,9 +38257,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6aae4e07bf92bb14c88c25928e2cc243, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   scoreText: {fileID: 1198435166}
+  audioSourceCorrect: {fileID: 3135584824777137147}
+  audioSourceWrong: {fileID: 3135584824777137146}
 --- !u!65 &3135584824777137145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38271,6 +38275,198 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5366868, y: 0.06971628, z: 1.3611426}
   m_Center: {x: 0.2683431, y: 0.000000067055225, z: 0.00000011920929}
+--- !u!82 &3135584824777137146
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3135584824777137143}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8d783cc7f148041ef8909ae0cd9fff6a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &3135584824777137147
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3135584824777137143}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 442cd028aba794aaa9f24ba4100470d0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!23 &3154915300242564263
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39578,8 +39774,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6528104dd2b277b49a88b12aea92ecb7, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   redFill: {fileID: 250866340}
   greenFill: {fileID: 923746508}
   overcookTimer: {fileID: 1906102404}
@@ -39657,7 +39853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5106737799482293622, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
       propertyPath: m_Camera
-      value:
+      value: 
       objectReference: {fileID: 1120100367}
     - target: {fileID: 5106737799562955867, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
       propertyPath: m_Name
@@ -39689,7 +39885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5268293710728416454, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
       propertyPath: steakPrefab
-      value:
+      value: 
       objectReference: {fileID: 463930438}
     - target: {fileID: 5896919687215004277, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
       propertyPath: m_RootOrder
@@ -40207,7 +40403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8864814491231108202, guid: a8fefa6ca6b11b74e9e6e8ea8787905b, type: 3}
       propertyPath: m_InteractionManager
-      value:
+      value: 
       objectReference: {fileID: 1417828893}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fefa6ca6b11b74e9e6e8ea8787905b, type: 3}

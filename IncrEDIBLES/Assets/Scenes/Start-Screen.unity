@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -901,7 +901,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: 163}
+  m_AnchoredPosition: {x: -2, y: 184.9}
   m_SizeDelta: {x: 225, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318286197
@@ -977,7 +977,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -2.0271912, y: 0.015533447}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 100, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &451162730
 MonoBehaviour:
@@ -1497,7 +1497,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 6.2}
+  m_AnchoredPosition: {x: 0, y: 17.7}
   m_SizeDelta: {x: 647, y: 430}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714044303
@@ -1567,7 +1567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: -172.9}
+  m_AnchoredPosition: {x: -1, y: -236}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1078225931
@@ -1959,7 +1959,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -102, y: 88}
+  m_AnchoredPosition: {x: -102, y: 98.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1947008358
@@ -1987,11 +1987,12 @@ MonoBehaviour:
     ones, boil/saute without overcooking, and assemble dishes. You will get points
     for each correct dish you turn in, but be careful! If you burn food, have to
     throw any food away, or turn in the wrong item, you will lose points. Turn in
-    food on the green platform next to the fridge.
+    food on the green platform next to the fridge. You can move with the left joystick,
+    teleport with the left trigger, and hold ingredients with your right trigger.
 
 
-    Remember, your goal is to
-    get as many points as possible. Ready?
+    Remember,
+    your goal is to get as many points as possible. Ready?
 
 '
   m_isRightToLeft: 0
