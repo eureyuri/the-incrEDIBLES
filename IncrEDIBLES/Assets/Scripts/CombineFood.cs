@@ -19,7 +19,6 @@ public class CombineFood : MonoBehaviour
     public GameObject cheeseFishPasta;
     public GameObject cheeseMushroomFishPasta;
     public GameObject cheeseMushroomMeatPasta;
-    public GameObject intermediateDish;
 
     void Start() {
         foodOnPlate = new List<string>();
@@ -41,10 +40,7 @@ public class CombineFood : MonoBehaviour
 
     private void AddOne(GameObject collided) {
         if (IsValidFood(collided)) {
-            collided.GetComponent<OffsetGrabInteractable>().enabled = false;
-            collided.GetComponent<Rigidbody>().isKinematic = true;
-            collided.transform.parent = this.transform;
-            collided.transform.localPosition = new Vector3(0, 0.1f, 0);
+            PlaceOne(collided, new Vector3(0, 0.1f, 0));
             AddToPlate(collided);
         }
     }
@@ -78,12 +74,9 @@ public class CombineFood : MonoBehaviour
                 InstantiateDish(tomatoPasta, collided);
             } else if (foodOnPlate.Contains("pasta") && foodOnPlate.Contains("cheese")) {
                 InstantiateDish(cheesePasta, collided);
+            } else {
+                PlaceTwo(collided);
             }
-            // else {
-            //     GameObject childObject = Instantiate(intermediateDish) as GameObject;
-            //     childObject.transform.parent = transform;
-            //     childObject.transform.localPosition = new Vector3(0, 0.1f, 0);
-            // }
         }
     }
 
@@ -106,6 +99,8 @@ public class CombineFood : MonoBehaviour
                 InstantiateDish(cheeseMushroomPasta, collided);
             } else if (foodOnPlate.Contains("pasta") && foodOnPlate.Contains("cheese") && foodOnPlate.Contains("fish")) {
                 InstantiateDish(cheeseFishPasta, collided);
+            } else {
+                PlaceThree(collided);
             }
         }
     }
@@ -123,6 +118,8 @@ public class CombineFood : MonoBehaviour
                 InstantiateDish(cheeseMushroomMeatPasta, collided);
             } else if (foodOnPlate.Contains("pasta") && foodOnPlate.Contains("cheese") && foodOnPlate.Contains("mushroom") && foodOnPlate.Contains("fish")) {
                 InstantiateDish(cheeseMushroomFishPasta, collided);
+            } else {
+                PlaceFour(collided);
             }
         }
     }
@@ -136,6 +133,72 @@ public class CombineFood : MonoBehaviour
         GameObject childObject = Instantiate(dish) as GameObject;
         childObject.transform.parent = transform;
         childObject.transform.localPosition = new Vector3(0, 0.1f, 0);
+    }
+
+    private void PlaceOne(GameObject collided, Vector3 pos) {
+        collided.GetComponent<OffsetGrabInteractable>().enabled = false;
+        collided.GetComponent<Rigidbody>().isKinematic = true;
+        collided.transform.parent = this.transform;
+        collided.transform.localPosition = pos;
+        collided.transform.rotation = Quaternion.identity;
+    }
+
+    private void PlaceTwo(GameObject collided) {
+        GameObject currentFood = null;
+        for (int i = 0; i < transform.childCount; i++) {
+            GameObject child = transform.GetChild(i).gameObject;
+            if (IsValidFood(child)) {
+                currentFood = child;
+                break;
+            }
+        }
+
+        currentFood.transform.localPosition = new Vector3(0, 0.1f, -0.07f);
+        currentFood.transform.rotation = Quaternion.identity;
+        PlaceOne(collided, new Vector3(0, 0.1f, 0.12f));
+    }
+
+    private void PlaceThree(GameObject collided) {
+        GameObject currentFood = null;
+        GameObject currentFood2 = null;
+        for (int i = 0; i < transform.childCount; i++) {
+            GameObject child = transform.GetChild(i).gameObject;
+            if (IsValidFood(child) && currentFood == null) {
+                currentFood = child;
+            } else if (IsValidFood(child) && currentFood != null) {
+                currentFood2 = child;
+            }
+        }
+
+        currentFood.transform.localPosition = new Vector3(-0.05f, 0.1f, -0.07f);
+        currentFood.transform.rotation = Quaternion.identity;
+        currentFood2.transform.localPosition = new Vector3(0, 0.1f, -0.12f);
+        currentFood2.transform.rotation = Quaternion.identity;
+        PlaceOne(collided, new Vector3(0.19f, 0.1f, 0));
+    }
+
+    private void PlaceFour(GameObject collided) {
+        GameObject currentFood = null;
+        GameObject currentFood2 = null;
+        GameObject currentFood3 = null;
+        for (int i = 0; i < transform.childCount; i++) {
+            GameObject child = transform.GetChild(i).gameObject;
+            if (IsValidFood(child) && currentFood == null) {
+                currentFood = child;
+            } else if (IsValidFood(child) && currentFood != null) {
+                currentFood2 = child;
+            } else if (IsValidFood(child) && currentFood != null && currentFood2 != null) {
+                currentFood3 = child;
+            }
+        }
+
+        currentFood.transform.localPosition = new Vector3(-0.002f, 0.1f, -0.07f);
+        currentFood.transform.rotation = Quaternion.identity;
+        currentFood2.transform.localPosition = new Vector3(0, 0.1f, -0.12f);
+        currentFood2.transform.rotation = Quaternion.identity;
+        currentFood3.transform.localPosition = new Vector3(0.19f, 0.1f, 0);
+        currentFood3.transform.rotation = Quaternion.identity;
+        PlaceOne(collided, new Vector3(-0.04f, 0.1f, -0.02f));
     }
 
     public List<string> GetFoodOnPlate() {
