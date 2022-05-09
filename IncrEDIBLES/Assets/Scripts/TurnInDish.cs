@@ -7,12 +7,15 @@ using TMPro;
 public class TurnInDish : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
+    public AudioSource audioSourceCorrect;
+    public AudioSource audioSourceWrong;
 
     void OnCollisionEnter(Collision collision)
     {
         GameObject dish = collision.gameObject;
 
         if (dish.tag != "Plate") {
+            audioSourceWrong.Play();
             UpdateScore(Score.decrementVal);
             Destroy(dish);
             return;
@@ -20,6 +23,8 @@ public class TurnInDish : MonoBehaviour
 
         string[] ingredients = GetIngredientsOnDish(dish);
         int points = Recipes.CompleteAndReplace(ingredients);
+        if (points < 0) audioSourceWrong.Play();
+        else audioSourceCorrect.Play();
         Debug.Log("TurnInDish: points: " + points);
         UpdateScore(points);
 
