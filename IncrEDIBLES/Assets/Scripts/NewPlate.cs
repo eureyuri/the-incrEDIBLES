@@ -25,7 +25,7 @@ public class NewPlate : MonoBehaviour
         {
             Debug.Log("Create a new plate");
             GameObject clone = Instantiate(gameObject, pos, rot);
-            foreach (Transform child in clone.transform) 
+            foreach (Transform child in clone.transform)
             {
                 if(child.CompareTag("ReadyPasta") || child.CompareTag("ReadyTomato") || child.CompareTag("ReadyCheese") || child.CompareTag("ReadyMeat") || child.CompareTag("ReadyMushroom") || child.CompareTag("ReadyFish"))
                 {
@@ -39,6 +39,11 @@ public class NewPlate : MonoBehaviour
         }
         GetComponent<Rigidbody>().isKinematic = false;
         arrow.enabled = true;
+
+
+        // TODO: Get ingredients from CombineFood
+        // CombineFood combineFood = GetComponent<CombineFood>();
+        // List<string> ingredients = combineFood.GetFoodOnPlate();
     }
 
     public void StartGrab()
