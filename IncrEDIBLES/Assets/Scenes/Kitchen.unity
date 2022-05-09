@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44782746, g: 0.49781412, b: 0.5754409, a: 1}
+  m_IndirectSpecularColor: {r: 0.44782734, g: 0.49781406, b: 0.5754411, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -17898,6 +17898,164 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057564584}
   m_Mesh: {fileID: -4844407039673575695, guid: 2a83511a782a6aa4dafed1f5a2bd3803, type: 3}
+--- !u!1 &1067331434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1067331440}
+  - component: {fileID: 1067331439}
+  - component: {fileID: 1067331438}
+  - component: {fileID: 1067331437}
+  - component: {fileID: 1067331436}
+  - component: {fileID: 1067331435}
+  m_Layer: 5
+  m_Name: Canvas Recipe
+  m_TagString: Canvas
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1067331435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067331434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a235d97b7228d4b9ea3e22b8e0b90312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonRecipes: {fileID: 4900000, guid: 6bcb6690d25b84f49ad7122b5f71e660, type: 3}
+  recipeCard2: {fileID: 8687271646353319782, guid: 27eedaf889e34424da083a6600a0d452, type: 3}
+  recipeCard3: {fileID: 5218937576951972456, guid: 33d40c4a9be0cc343b863c4afbd5a095, type: 3}
+  recipeCard4: {fileID: 679845697990642276, guid: 6d704f6575790c04aa066492b28ab4f7, type: 3}
+  tomatoPasta: {fileID: 21300000, guid: 4b10fefe2d371d141a0216b7fe0731fc, type: 3}
+  tomatoCheesePasta: {fileID: 21300000, guid: 6260c28917cc34fb9a2e6a6426509153, type: 3}
+  tomatoMushroomPasta: {fileID: 21300000, guid: 6d1c8a05619384ef7a7d04df3e2cad7f, type: 3}
+  tomatoMeatPasta: {fileID: 21300000, guid: bd72c6a06180a41a996bec67f7d3d87b, type: 3}
+  tomatoFishPasta: {fileID: 21300000, guid: 7e9fc90a4ab2348e18997965472ea40e, type: 3}
+  tomatoMushroomFishPasta: {fileID: 21300000, guid: e931bf6621eac44288d8f8aa316e4e1a, type: 3}
+  tomatoMushroomMeatPasta: {fileID: 21300000, guid: d569f95241add4acc89964978a58bd93, type: 3}
+  cheesePasta: {fileID: 21300000, guid: 5b58d416988934a5288e19e18862f151, type: 3}
+  cheeseMushroomPasta: {fileID: 21300000, guid: 6be7703f3c3174ae5b214234bbbc3d2b, type: 3}
+  cheeseMeatPasta: {fileID: 21300000, guid: dace105714b054cfd8a704fe4aa8b51b, type: 3}
+  cheeseFishPasta: {fileID: 21300000, guid: 21a0573c2876843e18086f605081e106, type: 3}
+  cheeseMushroomFishPasta: {fileID: 21300000, guid: 545595ce64d5d47c1930c442f7db1abe, type: 3}
+  cheeseMushroomMeatPasta: {fileID: 21300000, guid: 5138518f9dea645a4a03d3a57583c6e7, type: 3}
+  pasta: {fileID: 21300000, guid: 7e1a522e1f43c0542a779bf314be5b64, type: 3}
+  fish: {fileID: 21300000, guid: 8e20cb846d9ff224aac155572ec96305, type: 3}
+  mushroom: {fileID: 21300000, guid: b02951e72ca2f5848ab8de9be02f4d91, type: 3}
+  tomato: {fileID: 21300000, guid: 28d906e8fd3770043955346470d298cd, type: 3}
+  cheese: {fileID: 21300000, guid: 19a05085c91da2a4f8d134d32c230a92, type: 3}
+  meat: {fileID: 21300000, guid: 0b1e828b31472ee41b0c31f875c16a12, type: 3}
+  cut: {fileID: 21300000, guid: 3e4063064b3550240af5df03e90a685b, type: 3}
+  boil: {fileID: 21300000, guid: bd51e57a02de358419e7a83a972a5906, type: 3}
+  saute: {fileID: 21300000, guid: 8a6bcb92465357f479ce45115b7b7f56, type: 3}
+--- !u!114 &1067331436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067331434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
+--- !u!114 &1067331437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067331434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1067331438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067331434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 100
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1067331439
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067331434}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 1120100367}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1067331440
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067331434}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 3.131}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 71
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.28, y: 0.7}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1074110980
 GameObject:
   m_ObjectHideFlags: 0
@@ -18970,7 +19128,7 @@ GameObject:
   - component: {fileID: 1120100368}
   m_Layer: 0
   m_Name: VR Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
