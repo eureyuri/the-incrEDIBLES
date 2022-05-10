@@ -9,16 +9,29 @@ public class ScoreDisplay : MonoBehaviour
 {
     public Text scoreField;
 
+    private bool once = true;
     private Vector3 relativePos;
     public GameObject cameraOffset;
     private Vector3 fakeForward;
-    private float distanceFactor = 0.761f;
+    private float distanceFactor = 118f;
     // Start is called before the first frame update
     void Start()
     {
         
         scoreField.text = Score.score.ToString();
+    }
 
+    void Update()
+    {
+        if(once)
+        {
+            adjustCanvas();
+            once = false;
+        }
+    }
+
+    private void adjustCanvas()
+    {
         transform.LookAt(transform.position + Camera.main.transform.rotation * Vector3.forward, Camera.main.transform.rotation * Vector3.up);
         relativePos = cameraOffset.transform.position;
         if(transform.localEulerAngles.y<=45 || transform.localEulerAngles.y>315)
@@ -40,7 +53,6 @@ public class ScoreDisplay : MonoBehaviour
         fakeForward = Camera.main.transform.forward;
         fakeForward.y = 0.0f; 
         fakeForward.Normalize(); 
-        transform.position = Vector3.Lerp(transform.position, relativePos + fakeForward, Time.deltaTime+1.0f);  
-        transform.position = new Vector3(transform.position.x, transform.position.y, -120f);
+        transform.position = Vector3.Lerp(transform.position, relativePos + fakeForward, Time.deltaTime+1.0f); 
     }
 }
