@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "1WMHHB61U62025",
+    "m_SelectedDeviceId": "1WMHHB64102027",
     "m_SelectedPackage": {
-        "deviceId": "1WMHHB61U62025",
+        "deviceId": "1WMHHB64102027",
         "name": "com.DefaultCompany.IncrEDIBLES",
-        "processId": 10701,
+        "processId": 7560,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -163,6 +163,36 @@
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 11865,
             "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 4612,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 5292,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 6163,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 7137,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 7560,
+            "exited": false
         }
     ],
     "m_Tags": {
@@ -215,7 +245,7 @@
         "MemoryGroup": 2,
         "Behavior": 0
     },
-    "m_Filter": "knife",
+    "m_Filter": "plate",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
