@@ -198,17 +198,20 @@ public class Recipes : MonoBehaviour
     }
 
     public static int CompleteAndReplace(string[] ingredients) {
-        // foreach (string ingredient in ingredients) {
-        //     Debug.Log("Recipes: CompleteAndReplace: incoming: " + ingredient);
-        // }
-        // Debug.Log("==============");
+        Array.Sort(ingredients, StringComparer.InvariantCulture);
+
+        foreach (string ingredient in ingredients) {
+            Debug.Log("Recipes: CompleteAndReplace: incoming: " + ingredient);
+        }
+        Debug.Log("==============");
 
         for (int i = 0; i < NUM_RECIPES; i++) {
-            // foreach (string ingredient in currRecipes[i].ingredients) {
-            //     Debug.Log("Recipes: CompleteAndReplace: existing: " + ingredient);
-            // }
-            // Debug.Log("=======");
-            // Debug.Log("Recipes: CompleteAndReplace: check: " + currRecipes[i].ingredients.SequenceEqual(ingredients));
+            foreach (string ingredient in currRecipes[i].ingredients) {
+                Debug.Log("Recipes: CompleteAndReplace: existing: " + ingredient);
+            }
+            Debug.Log("=======");
+            Array.Sort(currRecipes[i].ingredients, StringComparer.InvariantCulture);
+            Debug.Log("Recipes: CompleteAndReplace: check: " + currRecipes[i].ingredients.SequenceEqual(ingredients));
 
             // Check if correct. If correct replace the recipe with a new one
             if (currRecipes[i].ingredients.SequenceEqual(ingredients)) {
