@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44782776, g: 0.49781454, b: 0.57544154, a: 1}
+  m_IndirectSpecularColor: {r: 0.44782734, g: 0.49781406, b: 0.5754411, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1282,7 +1282,7 @@ GameObject:
   - component: {fileID: 106964083}
   - component: {fileID: 106964089}
   - component: {fileID: 106964088}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fryingPan_01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12510,7 +12510,7 @@ GameObject:
   - component: {fileID: 746774659}
   - component: {fileID: 746774665}
   - component: {fileID: 746774664}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fryingPan_01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38448,7 +38448,7 @@ GameObject:
   - component: {fileID: 1135606185417986557}
   - component: {fileID: 1135606185417986560}
   - component: {fileID: 1135606185417986559}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fryingPan_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41858,6 +41858,10 @@ PrefabInstance:
     - target: {fileID: 5268293710728416452, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
       propertyPath: m_Name
       value: fryingPan_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268293710728416452, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5268293710728416453, guid: 62a6dd880269ff540b0ceeab6c123522, type: 3}
       propertyPath: m_Enabled
