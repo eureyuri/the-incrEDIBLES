@@ -7,6 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class NewPlate : MonoBehaviour
 {
     public Image arrow;
+    public Text food;
 
     bool first;
     Vector3 pos;
@@ -17,6 +18,20 @@ public class NewPlate : MonoBehaviour
         first = true;
         pos = transform.position;
         rot = transform.rotation;
+    }
+
+    void Update()
+    {
+        // TODO: Get ingredients from CombineFood
+        CombineFood combineFood = GetComponent<CombineFood>();
+        List<string> ingredients = combineFood.GetFoodOnPlate();
+        string display = "";
+        foreach(string ingredient in ingredients)
+        {
+            Debug.Log(ingredient + " is on plate");
+            display = display + ingredient + " ";
+        }
+        food.text = display;
     }
 
     public void ExitGrab()
@@ -39,16 +54,13 @@ public class NewPlate : MonoBehaviour
         }
         GetComponent<Rigidbody>().isKinematic = false;
         arrow.enabled = true;
-
-
-        // TODO: Get ingredients from CombineFood
-        // CombineFood combineFood = GetComponent<CombineFood>();
-        // List<string> ingredients = combineFood.GetFoodOnPlate();
+        food.enabled = true;
     }
 
     public void StartGrab()
     {
         GetComponent<Rigidbody>().isKinematic = true;
         arrow.enabled = false;
+        food.enabled = false;
     }
 }
