@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "1WMHHB64102027",
+    "m_SelectedDeviceId": "1WMHHB61U62025",
     "m_SelectedPackage": {
-        "deviceId": "1WMHHB64102027",
+        "deviceId": "1WMHHB61U62025",
         "name": "com.DefaultCompany.IncrEDIBLES",
-        "processId": 16989,
+        "processId": 23549,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -192,42 +192,6 @@
             "deviceId": "1WMHHB64102027",
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 7560,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHHB64102027",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 13215,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHHB64102027",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 13921,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHHB64102027",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 14808,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHHB64102027",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 15511,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHHB64102027",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 16275,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHHB64102027",
-            "name": "com.DefaultCompany.IncrEDIBLES",
-            "processId": 16989,
             "exited": false
         }
     ],

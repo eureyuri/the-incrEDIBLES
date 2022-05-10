@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1988,11 +1988,11 @@ MonoBehaviour:
     for each correct dish you turn in, but be careful! If you burn food, have to
     throw any food away, or turn in the wrong item, you will lose points. Turn in
     food on the green platform next to the fridge. You can move with the left joystick,
-    teleport with the left trigger, and hold ingredients with your right trigger.
+    hold ingredients with your left or right triggers, and see the recipes by pressing
+    X.
 
 
-    Remember,
-    your goal is to get as many points as possible. Ready?
+    Remember, your goal is to get as many points as possible. Ready?
 
 '
   m_isRightToLeft: 0
