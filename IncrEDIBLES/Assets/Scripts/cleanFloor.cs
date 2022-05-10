@@ -7,7 +7,6 @@ using TMPro;
 public class cleanFloor : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
-    private int score;
     public AudioSource audioSourceWrong;
 
     void OnCollisionEnter(Collision collision)

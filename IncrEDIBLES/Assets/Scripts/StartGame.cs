@@ -9,18 +9,8 @@ public class StartGame : MonoBehaviour
     // Initialize variable for kitchen scene.
     public string startGameScene;
 
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame.
-    void Update()
-    {
-
-    }
-
     public void NewGame() {
+        Score.reset();
         SceneManager.LoadScene(startGameScene);
     }
 }
