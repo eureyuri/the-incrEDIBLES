@@ -21,7 +21,8 @@ public class TurnInDish : MonoBehaviour
             return;
         }
 
-        string[] ingredients = GetIngredientsOnDish(dish);
+        CombineFood c = dish.GetComponent<CombineFood>();
+        string[] ingredients = c.GetFoodOnPlate().ToArray();
         int points = Recipes.CompleteAndReplace(ingredients);
         if (points < 0) audioSourceWrong.Play();
         else audioSourceCorrect.Play();
