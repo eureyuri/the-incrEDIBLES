@@ -2590,3 +2590,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreField: {fileID: 493132147}
+  cameraOffset: {fileID: 596373249}

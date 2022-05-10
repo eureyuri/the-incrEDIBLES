@@ -16,6 +16,7 @@ public class ScoreDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         scoreField.text = Score.score.ToString();
 
         transform.LookAt(transform.position + Camera.main.transform.rotation * Vector3.forward, Camera.main.transform.rotation * Vector3.up);
@@ -40,5 +41,6 @@ public class ScoreDisplay : MonoBehaviour
         fakeForward.y = 0.0f; 
         fakeForward.Normalize(); 
         transform.position = Vector3.Lerp(transform.position, relativePos + fakeForward, Time.deltaTime+1.0f);  
+        transform.position = new Vector3(transform.position.x, transform.position.y, -120f);
     }
 }

@@ -10,6 +10,7 @@ public class ChangeScene : MonoBehaviour
     }
 
     public static void Restart() {
+        Score.score = 0;
         SceneManager.LoadScene(0);
     }
 

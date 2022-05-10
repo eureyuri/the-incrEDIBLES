@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -100}
+  m_AnchoredPosition: {x: 0, y: -80}
   m_SizeDelta: {x: 30, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7083272022774853364
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126702010194551758}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -109,8 +109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 120}
-  m_SizeDelta: {x: 650, y: 150}
+  m_AnchoredPosition: {x: 0, y: 150}
+  m_SizeDelta: {x: 850, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6983197261117782342
 CanvasRenderer:
@@ -127,13 +127,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2624131852344551156}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.21960784, g: 0.38431373, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -142,18 +142,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!1 &6204152410122352263
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,20 +180,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6204152410122352263}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.0009, y: 0.0015, z: 0.001}
   m_Children:
   - {fileID: 2210606157205626541}
   - {fileID: 7261557351472275027}
   m_Father: {fileID: 8904185606100917617}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.6}
+  m_SizeDelta: {x: 952.5, y: 456.5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1074648387322788247
 Canvas:
   m_ObjectHideFlags: 0
@@ -203,7 +203,7 @@ Canvas:
   m_GameObject: {fileID: 6204152410122352263}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 2
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -385,20 +385,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60bc01f5609f54569833be89b156b735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tomatoPasta: {fileID: 0}
-  tomatoCheesePasta: {fileID: 0}
-  tomatoMushroomPasta: {fileID: 0}
-  tomatoMeatPasta: {fileID: 0}
-  tomatoFishPasta: {fileID: 0}
-  tomatoMushroomMeatPasta: {fileID: 0}
-  tomatoMushroomFishPasta: {fileID: 0}
-  cheesePasta: {fileID: 0}
-  cheeseMushroomPasta: {fileID: 0}
-  cheeseMeatPasta: {fileID: 0}
-  cheeseFishPasta: {fileID: 0}
-  cheeseMushroomFishPasta: {fileID: 0}
-  cheeseMushroomMeatPasta: {fileID: 0}
-  audioSourcePlaceFood: {fileID: 0}
+  tomatoPasta: {fileID: 3715625811270280828, guid: e8874d3b37dd7470aa952125b8d25c4b, type: 3}
+  tomatoCheesePasta: {fileID: 1875048969802151784, guid: 21fab2eae5e4d453da4aeb8c5f0be1ab, type: 3}
+  tomatoMushroomPasta: {fileID: 1798436716870151419, guid: 359536e0c4977454180de6ca37bb7ac6, type: 3}
+  tomatoMeatPasta: {fileID: 1265030744316602794, guid: 426ef3b7b8abb4ecba59dfe6d4aa7c00, type: 3}
+  tomatoFishPasta: {fileID: 5519069446295252427, guid: 4f87dfcb89cc6495b85fb737529e4344, type: 3}
+  tomatoMushroomMeatPasta: {fileID: 1217288561795896314, guid: 35fee5cb9b84d4d539e5b268558e0ae8, type: 3}
+  tomatoMushroomFishPasta: {fileID: 2328083268565886546, guid: e90c10811e98047f5847984da7244bc1, type: 3}
+  cheesePasta: {fileID: 8038064032339951548, guid: 47650a259e04747038ffa6e856a7b1e9, type: 3}
+  cheeseMushroomPasta: {fileID: 6726034482890886549, guid: 78016531b204e454d9113ea63147671b, type: 3}
+  cheeseMeatPasta: {fileID: 3919027753351007473, guid: 11d795d9dbefd4183888f216951edb08, type: 3}
+  cheeseFishPasta: {fileID: 489800256327074327, guid: c4ac1aff9a3e742739715e7008b3707f, type: 3}
+  cheeseMushroomFishPasta: {fileID: 3618761341341312470, guid: 987fe42056cf34fbabb6767ce830370a, type: 3}
+  cheeseMushroomMeatPasta: {fileID: 4027959726819883199, guid: d4e86635117db4cd99b873fd2a8c6854, type: 3}
+  audioSourcePlaceFood: {fileID: -6533802626530071466}
 --- !u!114 &998342318568856333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,8 +411,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86a5db73dc0dfd3479ee8cf80b23ff6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrow: {fileID: 0}
-  food: {fileID: 0}
+  arrow: {fileID: 5737487978537874562}
+  food: {fileID: 4912117818363086065}
+  prefab: {fileID: 8904185606101074257}
 --- !u!114 &5704356147531882904
 MonoBehaviour:
   m_ObjectHideFlags: 0
