@@ -133,7 +133,8 @@ public class CombineFood : MonoBehaviour
 
     private void InstantiateDish(GameObject dish, GameObject collided) {
         for (int i = 0; i < transform.childCount; i++) {
-            Destroy(transform.GetChild(i).gameObject);
+            GameObject child = transform.GetChild(i).gameObject;
+            if (IsValidFood(child)) Destroy(child);
         }
 
         Destroy(collided);
