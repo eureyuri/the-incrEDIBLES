@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "1WMHHB61U62025",
+    "m_SelectedDeviceId": "1WMHHB64102027",
     "m_SelectedPackage": {
-        "deviceId": "1WMHHB61U62025",
+        "deviceId": "1WMHHB64102027",
         "name": "com.DefaultCompany.IncrEDIBLES",
-        "processId": 23549,
+        "processId": 5302,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -192,6 +192,18 @@
             "deviceId": "1WMHHB64102027",
             "name": "com.DefaultCompany.IncrEDIBLES",
             "processId": 7560,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 4649,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHB64102027",
+            "name": "com.DefaultCompany.IncrEDIBLES",
+            "processId": 5302,
             "exited": false
         }
     ],
