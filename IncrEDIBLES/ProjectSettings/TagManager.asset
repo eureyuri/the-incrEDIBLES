@@ -30,6 +30,8 @@ TagManager:
   - Recipe3
   - Recipe4
   - Recipe0
+  - fryingPan
+  - piece
   layers:
   - Default
   - TransparentFX
@@ -37,8 +39,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - pieceColliders
+  - fryingPans
   - 
   - 
   - 
